@@ -6,9 +6,10 @@ const IndexPage = () => (
     <div>
       <div className="Hero">
         <div className="HeroGroup">
-          <h1>Learn to create value in design</h1>
-          <p>Welcome to your new Gatsby site.</p>
-          <Link to="/video">Watch the video</Link>
+          <h1>Learn to deliver value for all your work</h1>
+          <h2>Design methods and principles that you can put to work right away on a product and a variety of projects.</h2>
+          <Link to="/video">Learn it for free</Link>
+          <p>Get the 7 days free email course</p>
         </div>
       </div>
     </div>
