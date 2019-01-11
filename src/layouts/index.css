@@ -11,7 +11,7 @@ body {
     text-decoration: none;
   }
   .Hero {
-    height: 600px;
+    height: 100%;
     background: url('../images/wallpaper3.jpg');
     background-size: cover;
     background-position: center;
@@ -19,13 +19,19 @@ body {
   .Hero h1 {
     margin: 0;
     color: white;
-    font-size: 30px;
+    font-size: 60px;
     line-height: 1.2;
     font-weight: 600;
+    opacity: 0;
+    animation: HeroAnimation;
+    animation-duration: 3s;
+    animation-delay: 0.1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
   }
   .Hero h2 {
     color: rgba(255,255,255, 0.8);
-    font-size: 20px;
+    font-size: 26px;
     line-height: 1.5;
     font-weight: 300;
   }
@@ -48,3 +54,26 @@ body {
     padding: 150px 50px;
     text-align: center;
   }
+
+  @media (max-width: 640px) {
+    .HeroGroup {
+      padding: 100px 20px;
+    }
+    .Hero h1 {
+      font-size: 30px;
+    }
+    .Hero h2 {
+      font-size:20px;
+    }
+  }
+
+@keyframes HeroAnimation {
+  0% {
+      opacity: 0;
+      transform: translateY(20px)
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0px)
+  }
+}

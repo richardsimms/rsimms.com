@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import Header from '../components/header'
 import './index.css'
 
+
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
@@ -14,6 +15,7 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
+    <Header />
       {children()}
 
   </div>
@@ -34,3 +36,5 @@ export const query = graphql`
     }
   }
 `
+
+
