@@ -56,7 +56,7 @@ body {
     transform: translateY(-3px);
   }
   .HeroGroup {
-    max-width: 500px;
+    max-width: 720px;
     margin: 0 auto;
     padding: 150px 50px;
     text-align: center;
@@ -101,6 +101,56 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+.ContentGroup{
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 150px 50px;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .ContentGroup {
+    padding: 100px 20px;
+  }
+  .ContentGroup h2 {
+    font-size:20px;
+  }
+}
+
+.ContentGroup h3 {
+  margin: 50px 0;
+  font-size: 30px;
+  text-align: left;
+  font-weight: 700;
+  background: linear-gradient(104deg, #F99EB8 0%, #FA5483 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ContentGroup p {
+  color: #244E5F;
+  font-size: 26px;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: left;
+}
+
+.ContentGroup li {
+  margin: 18px 0;
+  color: #244E5F;
+  font-size: 26px;
+  line-height: 1.5;
+  font-weight: 400;
+  text-align: left;
+}
+
+.ContentGroup em {
+  color: #244E5F;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 700;
+  text-align: left;
+}
 
 .Cards h2 {
   margin: 50px 20px;
@@ -113,15 +163,17 @@ body {
 }
 
 .CardGroup {
-  margin: 50px 40px 100px;
+  margin: 50px 150px 100px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
+  align-items: center;
   justify-items: center;
 }
 
 @media (max-width: 1060px) {
   .CardGroup {
+    margin: 50px 40px 100px;
     grid-template-columns: repeat(2, 1fr);
   }
 }
