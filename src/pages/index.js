@@ -32,6 +32,10 @@ const IndexPage = () => (
       <p>Even if we are designing things right, which we do. Teams today are all too often feature factories. With little knowledge for if the features actually solve the underlying business problems.</p> 
       <p>Learn to focus on delivering value for business and customers. This email course will be your guide to create more valuable design work. Made for those looking to move into Strategic Design roles or those looking to add UX Strategy to their skillset.</p>
     </div>
+    <div className="ImageBlock">
+      <img className="Image" src={require('../images/img-square.png')} />
+      <img className="Image" src={require('../images/img-portrait.png')} />
+    </div>
     <div className="ContentGroup">      
       <h3>Digital products</h3>
       <p>The products we design are having more of an impact than ever. Learn to deliver real value for your company and for the customers. Through continuously experimenting, measuring and building.</p> 
@@ -41,6 +45,10 @@ const IndexPage = () => (
         <li>Launching a product or feature which helps a business move towards achieving their KPI(s)</li>
       </ul>
       <p><em>This course aims to solve these questions. Cut through the Random feature list with something valuable. From oh no! To fuck yeah!</em></p>
+    </div>
+    <div className="ImageOverlap">
+    <imageoverlap><img className="Image" src={require('../images/img-large.png')} /></imageoverlap>
+    <imageoverlap><img className="Image" src={require('../images/img-small.png')} /></imageoverlap>
     </div>
     <div className="ContentGroup">      
       <h3>Add value to your design process</h3>
@@ -77,12 +85,7 @@ const IndexPage = () => (
       title="React for designers"
       text="Even if we are designing things right, which we do. Teams today are all too often feature factories. With little knowledge for if the features actually solve the underlying business problems."
     />
-    <Footer 
-      logo={require('../images/logo-react.png')} 
-      instagram="https://www.instagram.com/valuebased.design/channel/"
-      privacy="/"
-      copyright="©RSIMMS"
-    />
+    <Footer />
   </div>
 )
 
