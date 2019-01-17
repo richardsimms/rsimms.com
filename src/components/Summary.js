@@ -26,7 +26,6 @@ const SummaryTitle = styled.h3`
     font-size: 30px;
     margin: 0;
     line-height: 1.2;
- 
 `
 
 const SummaryText = styled.p`
