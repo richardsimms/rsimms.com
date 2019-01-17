@@ -4,6 +4,7 @@ import Card from '../components/Card';
 import Section from '../components/Section';
 import Wave from '../components/Wave';
 import Content from '../components/Content';
+import Summary from '../components/Summary';
 import Footer from '../components/Footer';
 
 const IndexPage = () => (
@@ -79,6 +80,12 @@ const IndexPage = () => (
           />
         </div>
     </div>
+    <Summary 
+      title="App launch 🚀 "
+      text1="The iOS and Android apps launched with a fast and secure access to bank accounts. Categorised transactions, transfer money, pay bills and make payments."
+      text2="Self-serves across Car, Home and Life Insurance, from updating address, pay renewals and new quotes. Make a claim and to be able to track the entire process from start to finish."
+      text3="Suncorp App’s also has a Virtual Assistant chatbot powered by Microsoft Watson to answer questions about specific bank accounts and insurance policies."
+    />
     <Section 
       image={require('../images/wallpaper2.jpg')}
       logo={require('../images/logo-react.png')} 
