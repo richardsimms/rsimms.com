@@ -11,6 +11,8 @@ const SummaryGroup = styled.div`
     position: relative;
     align-items: center;
     justify-items: center;
+    top: -50px;
+    z-index: -2;
 `
 
 const SummaryTitleGroup = styled.div`

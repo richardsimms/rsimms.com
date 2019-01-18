@@ -33,9 +33,8 @@ class Header extends React.Component {
         <div className="HeaderGroup">
           <Link to="/"><img src={require ('../images/Reuleaux.svg')} width="30" /></Link>
           <Link to="/course">Course</Link>
-          <Link to="/downloads">Downloads</Link>
-          <Link to="/workshops">Workshops</Link>
-          <Link to="/buy"><button>Buy</button></Link>
+          <Link to="/contact">Contact</Link>
+          <Link to="/all">All</Link>
         </div>
       </div>
     )
