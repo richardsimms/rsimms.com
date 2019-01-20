@@ -12,7 +12,7 @@ body {
   }
   .Hero {
     height: 100%;
-    background: url('../images/wallpaper3.jpg');
+    background: linear-gradient(180deg, #244E5F 0%, #55BBE4 100%);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -43,8 +43,8 @@ body {
   .Hero a {
     font-size: 18px;
     font-weight: 600;
-    color: black;
-    background: #FAE3EA;
+    color: white;
+    background: linear-gradient(104deg, #F99EB8 0%, #FA5483 100%);
     padding: 9px 20px;
     border-radius: 20px;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);

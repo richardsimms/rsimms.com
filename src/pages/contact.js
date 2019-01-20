@@ -10,7 +10,7 @@ const Contact = styled.div`
     justify-items: center;
     grid-gap: 40px;
     position: relative;
-    background: #96CADF;
+    background: #244E5F;
     width: 100%;
     height: 100vh;
     padding: 10px 0;
@@ -23,7 +23,7 @@ const Contact = styled.div`
     }  
 
     p {
-        color: #333333;
+        color: #ffffff;
         font-size: 18px;
         line-height: 1.3;
     }
