@@ -105,7 +105,7 @@ body {
   max-width: 720px;
   margin: 0 auto;
   padding: 150px 50px;
-  text-align: center;
+  text-align: left;
 }
 
 @media (max-width: 640px) {

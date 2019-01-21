@@ -48,21 +48,26 @@ const SecondPage = () => (
      <h2>Recent work</h2>
       <div className="CardGroup">
         <Card  
+          link="/suncorp"
           title="Suncorp App" 
           text="UX Design & Strategy"
           image={require('../images/card-suncorp.jpg')}
           />
         <Card  
+          link="/mastercard" 
           title="Mastercard" 
           text="UX & UI Design"
           image={require('../images/card-mastercard.jpg')}
           />
         <Card  
+          link="/european-tour"
           title="European Tour" 
           text="UX Design"
           image={require('../images/card-et.jpg')}
           />
         <Card  
+          
+          link="/espn"
           title="ESPN PL" 
           text="AR Design"
           image={require('../images/card-espn.jpg')}
