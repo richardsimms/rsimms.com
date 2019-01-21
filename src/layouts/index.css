@@ -165,12 +165,16 @@ body {
 .CardGroup {
   margin: 50px 150px 100px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 40px;
   align-items: center;
   justify-items: center;
 }
-
+@media (max-width: 1624px) {
+  .CardGroup {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 @media (max-width: 1060px) {
   .CardGroup {
     margin: 50px 40px 100px;
