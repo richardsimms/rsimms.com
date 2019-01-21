@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import './Header.css'
+import Icon from '../images/Reuleaux.svg'
 
 
 class Header extends React.Component {
@@ -31,7 +32,7 @@ class Header extends React.Component {
     return (
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
         <div className="HeaderGroup">
-          <Link to="/"><img src={require ('../images/Reuleaux.svg')} width="30" /></Link>
+          <Icon />
           <Link to="/">Work</Link>
           <Link to="/course">Course</Link>
           <Link to="/contact">Contact</Link>
