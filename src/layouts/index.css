@@ -251,8 +251,8 @@ imageoverlap:nth-child(2) {
   }
 }
 .video {
-  width: 640px;
-  height:360px;
+  width: 720px;
+  height:405px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
@@ -261,7 +261,7 @@ imageoverlap:nth-child(2) {
   align-items: center;
 
   @media (max-width: 720px) {
-    width: 320px;
-    height: 180px;
+    width: 375px;
+    height: 210px;
   }
 }
