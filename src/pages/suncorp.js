@@ -7,6 +7,7 @@ import Content from '../components/Content';
 import Summary from '../components/Summary';
 import Footer from '../components/Footer';
 import Banner from '../components/Banner';
+import ReactPlayer from 'react-player';
 
 const SuncorpPage = () => (
   <div>
@@ -24,9 +25,8 @@ const SuncorpPage = () => (
       <p><em>View the app on <a href="/">iOS</a> and <a href="/">Android</a></em></p>
 
     </div>
-    <div className="ImageOverlap">
-      <imageoverlap><img className="Image" src={require('../images/img-large-et.jpg')} /></imageoverlap>
-      <imageoverlap><img className="Image" src={require('../images/img-small-et.jpg')} /></imageoverlap>
+    <div className="video">
+      <ReactPlayer url='https://vimeo.com/285677207' playing loop />
     </div>
     <div className="ContentGroup">      
       <h3>Discovery and experiments phase</h3>

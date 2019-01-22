@@ -20,16 +20,16 @@ const SecondPage = () => (
       <p>Helping companies deliver real value across product design and development, by knowing that they are investing in designing right things. I work with teams, to understand the features that go into the products and make sure they actually solve the underlying customer and business problems. I guide teams to create more valuable design work through strategic design and lean UX practice.</p> 
     </div>
     <div className="ImageOverlap">
-      <imageoverlap><img className="Image" src={require('../images/img-large-et.jpg')} /></imageoverlap>
-      <imageoverlap><img className="Image" src={require('../images/img-small-et.jpg')} /></imageoverlap>
+      <imageoverlap><img className="Image" src={require('../images/img-large-suncorp.jpg')} /></imageoverlap>
+      <imageoverlap><img className="Image" src={require('../images/img-small-appmap.jpg')} /></imageoverlap>
     </div>
     <div className="ContentGroup">      
-      <h3>👋 Hello, nice to meet you.</h3>
+      <h3>Hello, nice to meet you.</h3>
       <p>I’m Richard Simms, a Design Lead/Manager. Over the last 15 years, I have designed and developed projects in the digital space, pretty much anything that has a screen. I’ve had the pleasure to work with globally respected brands. Designing human-centered services, transforming ideas into digital products and creating unique customer experiences.</p>
     </div>
     <div className="ImageBlock">
-      <img className="Image" src={require('../images/img-square-rsimms.jpg')} />
-      <img className="Image" src={require('../images/img-portrait-rsimms.jpg')} />
+      <img className="Image" src={require('../images/img-square-mastercard.jpg')} />
+      <img className="Image" src={require('../images/1480267931265.gif')} />
     </div>
     <div className="ContentGroup">      
       <h3>I believe</h3>
@@ -37,8 +37,8 @@ const SecondPage = () => (
       <p><em>Cutting through the random feature list with something valuable. From oh no! To fuck yeah!</em></p>
     </div>
     <div className="ImageOverlap">
-      <imageoverlap><img className="Image" src={require('../images/img-large-coutts.jpg')} /></imageoverlap>
-      <imageoverlap><img className="Image" src={require('../images/img-small-sky.jpg')} /></imageoverlap>
+      <imageoverlap><img className="Image" src={require('../images/img-large-et.jpg')} /></imageoverlap>
+      <imageoverlap><img className="Image" src={require('../images/img-small-et.jpg')} /></imageoverlap>
     </div>
     <Summary 
       title="Who I love to work with"

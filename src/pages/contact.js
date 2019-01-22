@@ -37,8 +37,9 @@ const ContactPage = () => (
         <info>
             <h1>Richard Simms</h1>
             <p>Design Lead</p>
-            <p>richard@rsimms.com</p>
-            <p>+61 437 116 722</p>
+            <a href="mailto:richard@rsimms.com"><p>richard@rsimms.com</p></a>
+            <a href="tel:+61437116722"><p>+61 437 116 722</p></a>
+            <a href="https://www.linkedin.com/in/richardsimms"><p>LinkedIn profile</p></a>
         </info>
     </Contact>
 )

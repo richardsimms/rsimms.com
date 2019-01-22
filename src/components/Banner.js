@@ -27,9 +27,9 @@ const SectionGroup = styled.div`
     height: 100vh;
     width: 100%; 
     position: relative;
-    align-items: center;
+    align-items: start;
     justify-items: center;
-    animation: ${BounceAnimation} 3s .3s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+    animation: ${BounceAnimation} 3s .3s forwards cubic-bezier(0.1, 0.8, 1, 1);
 `
 const SectionTitleGroup = styled.div`
     display: grid;
@@ -46,10 +46,7 @@ const SectionTitle = styled.h3`
     font-size: 24px;
     font-weight: 800;
     margin: 50px;
-
 `
-
-
 
 const Banner = props => (
     <SectionGroup image={props.image}>

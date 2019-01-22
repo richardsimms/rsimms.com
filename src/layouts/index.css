@@ -104,7 +104,7 @@ body {
 .ContentGroup{
   max-width: 720px;
   margin: 0 auto;
-  padding: 150px 50px;
+  padding: 100px 50px;
   text-align: left;
 }
 
@@ -249,4 +249,13 @@ imageoverlap:nth-child(2) {
   /* autoprefixer: off */
     grid-column: 1; 
   }
+}
+.video {
+  max-width: 950px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: -20px;
+  justify-items: center;
+  align-items: center;
 }
