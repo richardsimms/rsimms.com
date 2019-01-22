@@ -26,7 +26,10 @@ const SuncorpPage = () => (
 
     </div>
     <div className="video">
-      <ReactPlayer url='https://vimeo.com/285677207' playing loop />
+      <ReactPlayer url='https://vimeo.com/285677207' playing loop 
+        width='100%'
+        height='100%'
+      />
     </div>
     <div className="ContentGroup">      
       <h3>Discovery and experiments phase</h3>
