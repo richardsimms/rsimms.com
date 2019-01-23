@@ -28,6 +28,7 @@ const SectionTitleGroup = styled.div`
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 10px;
         justify-items: center;
+        margin: 0 20px;
     }
 `
 
