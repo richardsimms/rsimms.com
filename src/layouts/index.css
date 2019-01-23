@@ -265,3 +265,19 @@ imageoverlap:nth-child(2) {
     height: 210px;
   }
 }
+.videop {
+  width: 720px;
+  height:405px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: -20px;
+  justify-items: center;
+  align-items: center;
+ 
+
+  @media (max-width: 720px) {
+    width: 375px;
+    height: 210px;
+  }
+}

@@ -50,7 +50,7 @@ const Footer = props => (
     <SectionGroup>
         <SectionTitleGroup>
             <SectionText><a href="https://www.instagram.com/valuebased.design/channel/">Instagram</a></SectionText>
-            <SectionText><a href="/">Privacy Policy</a></SectionText>
+            <SectionText><a href="/privacy">Privacy Policy</a></SectionText>
             <SectionText>©RSIMMS</SectionText>
         </SectionTitleGroup>
     </SectionGroup>

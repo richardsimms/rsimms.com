@@ -7,7 +7,7 @@ const Work = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
-    justify-items: center;
+    justify-items: left;
     grid-gap: 40px;
     position: relative;
     background: #333333;
