@@ -13,7 +13,7 @@ const vauleBasedDesignPage = () => (
           <h1>Learn to deliver value for all your work</h1>
           <h2>Design methods and principles that you can put to work right away on a product and a variety of projects.</h2>
           <Link to="../images/Value-based-design.pdf">Downlaod it for free</Link>
-          <p>Get the VBD PDF </p>
+          <p>Get the free Value-based Design slides</p>
           <div className="Logos">
             <img src={require('../images/logo-lean_startup.png')} width="50px" />
             <img src={require('../images/logo-figma.png')} width="50px" />

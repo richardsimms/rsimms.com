@@ -14,7 +14,7 @@ const SuncorpPage = () => (
   <Banner 
     image={require('../images/hero-suncorp.jpg')}
     title="Suncorp App"
-    text="Even if we are designing things right, which we do. Teams today are all too often feature factories. With little knowledge for if the features actually solve the underlying business problems."
+    text=""
   />
     <div className="ContentGroup">      
       <h3>A single destination</h3>

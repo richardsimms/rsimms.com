@@ -14,7 +14,7 @@ const ETPage = () => (
   <Banner 
     image={require('../images/hero-et.jpg')}
     title="European Tour"
-    text="Even if we are designing things right, which we do. Teams today are all too often feature factories. With little knowledge for if the features actually solve the underlying business problems."
+    text=""
   />
     <div className="ContentGroup">      
       <h3>European Tour Website</h3>
@@ -70,7 +70,7 @@ const ETPage = () => (
             image={require('../images/card-et.jpg')}
           />
         <Card  
-            link="espn"
+            link="/espn"
             title="ESPN PL" 
             text="AR Design"
             image={require('../images/card-espn.jpg')}

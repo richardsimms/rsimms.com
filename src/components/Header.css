@@ -17,7 +17,7 @@
     max-width: 800px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(4, auto);
     align-items: center;
     justify-items: center;
 }
@@ -50,9 +50,9 @@
         padding: 15px 0;
     }
     .HeaderGroup {
-        grid-template-columns: repeat(4, auto);
+        grid-template-columns: repeat(3, auto);
     }
-    .Header a:nth-child(5){
+    .Header a:nth-child(3){
         display: none;
     }
 }

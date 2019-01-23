@@ -12,8 +12,8 @@ const IndexPage = () => (
   <div>
   <Banner 
     image={require('../images/hero-et.jpg')}
-    title="React for designers"
-    text="Even if we are designing things right, which we do. Teams today are all too often feature factories. With little knowledge for if the features actually solve the underlying business problems."
+    title="Designer & UX Lead"
+    text=""
   />
     <div className="ContentGroup">      
       <h3>Making products come alive</h3>

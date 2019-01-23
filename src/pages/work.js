@@ -53,9 +53,9 @@ const WorkPage = () => (
         <blank></blank>
         <info>
             <a href="/suncorp"><p>Suncorp</p></a>
-            <a href="/"><p>European Tour</p></a>
-            <a href="/"><p>Mastercard</p></a>
-            <a href="/"><p>ESPN EPL</p></a>
+            <a href="/european-tour"><p>European Tour</p></a>
+            <a href="/mastercard"><p>Mastercard</p></a>
+            <a href="/espn"><p>ESPN EPL</p></a>
         </info>
     </Work>
 )
