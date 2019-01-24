@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Header from '../components/header'
-import "./layout.css"
+import './layout.css'
 import { graphql } from "gatsby"
 
 const Layout = ({ children, data }) => (
