@@ -1,10 +1,12 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Footer from '../components/Footer';
 import Banner from '../components/Banner';
+import Header from '../components/header';
+import '../layouts/index.css';
 
 const PrivacyPage = () => (
   <div>
+  <Header />
       <Banner 
       image={require('../images/hero-privacy.jpg')}
       title="Privacy Policy"

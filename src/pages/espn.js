@@ -1,16 +1,15 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Card from '../components/Card';
-import Section from '../components/Section';
-import Wave from '../components/Wave';
-import Content from '../components/Content';
 import Summary from '../components/Summary';
 import Footer from '../components/Footer';
 import Banner from '../components/Banner';
 import ReactPlayer from 'react-player';
+import Header from '../components/header';
+import '../layouts/index.css';
 
 const ESPNPage = () => (
     <div>
+    <Header />
     <Banner 
       image={require('../images/hero-espn.jpg')}
       title="ESPN"

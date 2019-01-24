@@ -1,16 +1,15 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Card from '../components/Card';
-import Section from '../components/Section';
-import Wave from '../components/Wave';
-import Content from '../components/Content';
 import Summary from '../components/Summary';
 import Footer from '../components/Footer';
 import Banner from '../components/Banner';
 import ReactPlayer from 'react-player';
+import Header from '../components/header';
+import '../layouts/index.css';
 
 const MastercardPage = () => (
     <div>
+    <Header />
     <Banner 
       image={require('../images/hero-mastercard.jpg')}
       title="Mastercard"
@@ -40,16 +39,16 @@ const MastercardPage = () => (
       </ul>
     </div>
     <div className="ImageOverlap">
-      <imageoverlap><img className="Image" src={require('../images/img-large-mastercard.jpg')} /></imageoverlap>
-      <imageoverlap><img className="Image" src={require('../images/img-small-mastercard.jpg')} /></imageoverlap>
+      <imageoverlap><img className="Image" src={require('../images/img-large-mastercard.jpg')} alt="" /></imageoverlap>
+      <imageoverlap><img className="Image" src={require('../images/img-small-mastercard.jpg')} alt="" /></imageoverlap>
     </div>
     <div className="ContentGroup">      
       <p>We delivered a high-fidelity, interactive, clickable prototype or customers to access via their smartphones. Featuring 48 demo screens which could be used in a free flow manner via our hidden, built-in menu system to start each journey.</p>
       <p>We created bespoke a micro-interaction pattern system featuring ‘confirmation button behaviour’ to give customers a strong feeling of completion.</p>
     </div>
     <div className="ImageBlock">
-      <img className="Image" src={require('../images/1480267931265.gif')} />
-      <img className="Image" src={require('../images/1480268875443.gif')} />
+      <img className="Image" src={require('../images/1480267931265.gif')} alt="" />
+      <img className="Image" src={require('../images/1480268875443.gif')} alt="" />
     </div>
     <Summary 
       title="I designed and lead my team to create visuals for a high-fidelity prototype"

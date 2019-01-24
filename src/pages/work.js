@@ -1,6 +1,6 @@
 import React from 'react'
 import styled  from 'styled-components'
-import Banner from '../components/Banner';
+import Header from '../components/header';
 
 
 const Work = styled.div`
@@ -49,15 +49,18 @@ const blank = styled.div`
 const info = styled.div``
 
 const WorkPage = () => (
-    <Work>
-        <blank></blank>
-        <info>
-            <a href="/suncorp"><p>Suncorp</p></a>
-            <a href="/european-tour"><p>European Tour</p></a>
-            <a href="/mastercard"><p>Mastercard</p></a>
-            <a href="/espn"><p>ESPN EPL</p></a>
-        </info>
-    </Work>
+    <div>
+        <Header />
+        <Work>
+            <blank></blank>
+            <info>
+                <a href="/suncorp"><p>Suncorp</p></a>
+                <a href="/european-tour"><p>European Tour</p></a>
+                <a href="/mastercard"><p>Mastercard</p></a>
+                <a href="/espn"><p>ESPN EPL</p></a>
+            </info>
+        </Work>
+    </div>
 )
 
 export default WorkPage

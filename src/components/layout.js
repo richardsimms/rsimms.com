@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Header from '../components/header'
-import './index.css'
-
+import '../layouts/index.css'
+import { graphql } from "gatsby"
 
 const Layout = ({ children, data }) => (
   <div>
@@ -15,7 +15,7 @@ const Layout = ({ children, data }) => (
       ]}
     />
     <Header />
-      {children()}
+      {children}
 
   </div>
 )

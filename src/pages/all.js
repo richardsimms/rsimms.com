@@ -3,12 +3,14 @@ import Link from 'gatsby-link'
 import Card from '../components/Card';
 import Section from '../components/Section';
 import Wave from '../components/Wave';
-import Content from '../components/Content';
 import Summary from '../components/Summary';
 import Footer from '../components/Footer';
+import Header from '../components/header';
+import '../layouts/index.css';
 
 const IndexPage = () => (
   <div>
+  <Header />
     <div>
       <div className="Hero">
       
@@ -18,12 +20,12 @@ const IndexPage = () => (
           <Link to="/video">Learn it for free</Link>
           <p>Get the 7 days free email course</p>
           <div className="Logos">
-            <img src={require('../images/logo-sketch.png')} width="50px" />
-            <img src={require('../images/logo-figma.png')} width="50px" />
-            <img src={require('../images/logo-framer.png')} width="50px" />
-            <img src={require('../images/logo-studio.png')} width="50px" />
-            <img src={require('../images/logo-swift.png')} width="50px" />
-            <img src={require('../images/logo-react.png')} width="50px" />
+            <img src={require('../images/logo-sketch.png')} alt="" width="50px" />
+            <img src={require('../images/logo-figma.png')} alt="" width="50px" />
+            <img src={require('../images/logo-framer.png')} alt="" width="50px" />
+            <img src={require('../images/logo-studio.png')} alt="" width="50px" />
+            <img src={require('../images/logo-swift.png')} alt="" width="50px" />
+            <img src={require('../images/logo-react.png')} alt="" width="50px" />
           </div>
         <Wave />
         </div>
@@ -35,8 +37,8 @@ const IndexPage = () => (
       <p>Learn to focus on delivering value for business and customers. This email course will be your guide to create more valuable design work. Made for those looking to move into Strategic Design roles or those looking to add UX Strategy to their skillset.</p>
     </div>
     <div className="ImageBlock">
-      <img className="Image" src={require('../images/img-square.png')} />
-      <img className="Image" src={require('../images/img-portrait.png')} />
+      <img className="Image" src={require('../images/img-square.png')} alt="" />
+      <img className="Image" src={require('../images/img-portrait.png')} alt="" />
     </div>
     <div className="ContentGroup">      
       <h3>Digital products</h3>
@@ -49,8 +51,8 @@ const IndexPage = () => (
       <p><em>This course aims to solve these questions. Cut through the Random feature list with something valuable. From oh no! To fuck yeah!</em></p>
     </div>
     <div className="ImageOverlap">
-    <imageoverlap><img className="Image" src={require('../images/img-large.png')} /></imageoverlap>
-    <imageoverlap><img className="Image" src={require('../images/img-small.png')} /></imageoverlap>
+    <imageoverlap><img className="Image" src={require('../images/img-large.png')} alt="" /></imageoverlap>
+    <imageoverlap><img className="Image" src={require('../images/img-small.png')} alt="" /></imageoverlap>
     </div>
     <div className="ContentGroup">      
       <h3>Add value to your design process</h3>

@@ -4,7 +4,7 @@ import './Card.css'
 const Card = props => (
     <a href={props.link}>
         <div className="Card" download="/suncorp">
-                <img src={props.image} />
+                <img src={props.image} alt={props.title} />
                 <h3>{props.title}</h3>
                 <p>{props.text}</p>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import styled  from 'styled-components'
-import Banner from '../components/Banner';
+import Header from '../components/header';
+import '../layouts/index.css';
 
 
 const Contact = styled.div`
@@ -32,7 +33,9 @@ const blank = styled.div``
 const info = styled.div``
 
 const ContactPage = () => (
-    <Contact>
+    <div>
+        <Header />
+        <Contact>
         <blank></blank>
         <info>
             <h1>Richard Simms</h1>
@@ -42,6 +45,8 @@ const ContactPage = () => (
             <a href="https://www.linkedin.com/in/richardsimms"><p>LinkedIn profile</p></a>
         </info>
     </Contact>
+    </div>
+
 )
 
 export default ContactPage

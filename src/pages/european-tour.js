@@ -1,16 +1,15 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Card from '../components/Card';
-import Section from '../components/Section';
-import Wave from '../components/Wave';
-import Content from '../components/Content';
 import Summary from '../components/Summary';
 import Footer from '../components/Footer';
 import Banner from '../components/Banner';
 import ReactPlayer from 'react-player';
+import Header from '../components/header';
+import '../layouts/index.css';
 
 const ETPage = () => (
   <div>
+  <Header />
   <Banner 
     image={require('../images/hero-et.jpg')}
     title="European Tour"
@@ -22,8 +21,8 @@ const ETPage = () => (
       <p>This would be quite some feat because The European Tour competition is a year-long Race to Dubai, where the winner is crowned and covers 47 tournaments across 26 countries.</p>
     </div>
     <div className="ImageOverlap">
-        <imageoverlap><img className="Image" src={require('../images/img-large-et.jpg')} /></imageoverlap>
-        <imageoverlap><img className="Image" src={require('../images/img-small-et.jpg')} /></imageoverlap>
+        <imageoverlap><img className="Image" src={require('../images/img-large-et.jpg')} alt="" /></imageoverlap>
+        <imageoverlap><img className="Image" src={require('../images/img-small-et.jpg')} alt="" /></imageoverlap>
     </div>
     <div className="ContentGroup">      
       <h3>Approach</h3>

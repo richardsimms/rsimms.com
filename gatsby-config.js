@@ -5,8 +5,9 @@ module.exports = {
     keywords: 'react course, react for designers, ios development, sketch app, swift app course, arkit 2, after effects, create sketch plugin'
   },
   plugins: [
-    
     'gatsby-plugin-react-helmet',
+    `gatsby-transformer-sharp`, 
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

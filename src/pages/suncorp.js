@@ -1,16 +1,15 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import Card from '../components/Card';
-import Section from '../components/Section';
-import Wave from '../components/Wave';
-import Content from '../components/Content';
 import Summary from '../components/Summary';
 import Footer from '../components/Footer';
 import Banner from '../components/Banner';
 import ReactPlayer from 'react-player';
+import Header from '../components/header';
+import '../layouts/index.css';
 
 const SuncorpPage = () => (
   <div>
+  <Header />
   <Banner 
     image={require('../images/hero-suncorp.jpg')}
     title="Suncorp App"
@@ -38,8 +37,8 @@ const SuncorpPage = () => (
       <p>Throughout discovery, we continually gathered feedback from customers. We tested everything from the value proposition, the navigation concepts to the desirability of individual features. </p>
     </div>
     <div className="ImageOverlap">
-    <imageoverlap><img className="Image" src={require('../images/img-large-suncorp.jpg')} /></imageoverlap>
-      <imageoverlap><img className="Image" src={require('../images/img-small-appmap.jpg')} /></imageoverlap>
+    <imageoverlap><img className="Image" src={require('../images/img-large-suncorp.jpg')} alt="" /></imageoverlap>
+      <imageoverlap><img className="Image" src={require('../images/img-small-appmap.jpg')} alt="" /></imageoverlap>
     </div>
     
     <div className="ContentGroup">      
@@ -50,8 +49,8 @@ const SuncorpPage = () => (
       <p>On projects of this size, communication is key and I was providing my stakeholder's holder with user testing summaries and prototypes of key experiences to present at their Senior Leadership team monthly updates.</p>
     </div>
     <div className="ImageBlock">
-      <img className="Image" src={require('../images/img-square-suncorp.jpg')} />
-      <img className="Image" src={require('../images/img-portrait-suncorp.jpg')} />
+      <img className="Image" src={require('../images/img-square-suncorp.jpg')} alt="" />
+      <img className="Image" src={require('../images/img-portrait-suncorp.jpg')} alt="" />
     </div>
     <div className="ContentGroup">      
       <h3>Design for development</h3>
@@ -61,8 +60,8 @@ const SuncorpPage = () => (
       <p>After setting the vision, I was responsible for keeping consistency within the app across multiple design teams in three different locations. Along with the UI lead, we ran multiple checkpoints. From peer crits, design reviews with the client and showcases.</p>
     </div>
     <div className="ImageOverlap">
-      <imageoverlap><img className="Image" src={require('../images/img-large-suncorpflow.jpg')} /></imageoverlap>
-      <imageoverlap><img className="Image" src={require('../images/img-small-suncorpffi.jpg')} /></imageoverlap>
+      <imageoverlap><img className="Image" src={require('../images/img-large-suncorpflow.jpg')} alt="" /></imageoverlap>
+      <imageoverlap><img className="Image" src={require('../images/img-small-suncorpffi.jpg')} alt="" /></imageoverlap>
     </div>
     <Summary 
       title="App launch 🚀 "

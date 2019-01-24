@@ -4,21 +4,25 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "^1.9.277",
-    "gatsby-image": "^2.0.26",
-    "gatsby-link": "^1.6.46",
+    "gatsby": "^2.0.93",
+    "gatsby-image": "^2.0.27",
+    "gatsby-link": "^2.0.9",
     "gatsby-plugin-favicon": "^3.1.5",
-    "gatsby-plugin-google-analytics": "^2.0.9",
-    "gatsby-plugin-react-helmet": "^2.0.11",
+    "gatsby-plugin-google-analytics": "^2.0.10",
+    "gatsby-plugin-netlify": "^2.0.6",
+    "gatsby-plugin-react-helmet": "^3.0.5",
     "gatsby-plugin-react-svg": "^2.0.0",
-    "gatsby-source-contentful": "^1.3.54",
+    "gatsby-plugin-sass": "^2.0.7",
+    "gatsby-plugin-sharp": "^2.0.18",
+    "gatsby-source-contentful": "^2.0.26",
+    "gatsby-transformer-sharp": "^2.1.10",
     "npmvet": "^0.1.5",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0",
     "react-player": "^1.8.0",
     "redux": "^4.0.1",
-    "styled-components": "^3.3.3",
+    "styled-components": "^4.1.3",
     "video-react": "^0.13.2"
   },
   "keywords": [
@@ -33,7 +37,8 @@
   },
   "devDependencies": {
     "babel-plugin-inline-react-svg": "^1.0.1",
-    "prettier": "^1.13.7"
+    "babel-preset-env": "^1.7.0",
+    "prettier": "^1.16.1"
   },
   "repository": {
     "type": "git",
