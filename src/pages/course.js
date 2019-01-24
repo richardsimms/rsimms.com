@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import Wave from '../components/Wave';
 import Footer from '../components/Footer';
-import Layout from "../components/layout"
+import Layout from "../components/layout";
 
 
 const vauleBasedDesignPage = () => <Layout>

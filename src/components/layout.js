@@ -9,8 +9,8 @@ const Layout = ({ children, data }) => (
   <div>
     <Helmet>
       <meta charSet="utf-8" />
-      <title>My Title</title>
-      <link rel="canonical" href="http://mysite.com/example" />
+      <title>RSIMMS | Value-based Design</title>
+      <link rel="canonical" href="https://rsimms.com" />
     </Helmet>
     <Header />
       {children}
