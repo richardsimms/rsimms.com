@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 import Layout from '../components/layout';
 
 
-const IndexPage = () => <Layout>
+const allPage = () => <Layout>
   <div>
     <div>
       <div className="Hero">
@@ -98,4 +98,4 @@ const IndexPage = () => <Layout>
   </div>
 </Layout>
 
-export default IndexPage
+export default allPage

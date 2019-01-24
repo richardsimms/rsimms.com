@@ -48,7 +48,7 @@ const blank = styled.div`
 `
 const info = styled.div``
 
-const WorkPage = () => (
+const workPage = () => (
     <div>
         <Header />
         <Work>
@@ -63,4 +63,4 @@ const WorkPage = () => (
     </div>
 )
 
-export default WorkPage
+export default workPage

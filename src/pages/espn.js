@@ -6,7 +6,7 @@ import Banner from '../components/Banner';
 import ReactPlayer from 'react-player';
 import Layout from '../components/layout';
 
-const ESPNPage = () => <Layout>
+const espnPage = () => <Layout>
     <div>
     <Banner 
       image={require('../images/hero-espn.jpg')}
@@ -83,4 +83,4 @@ const ESPNPage = () => <Layout>
   </div>
 </Layout>
 
-export default ESPNPage
+export default espnPage

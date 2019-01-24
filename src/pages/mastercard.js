@@ -7,7 +7,7 @@ import ReactPlayer from 'react-player';
 import Layout from '../components/layout';
 
 
-const MastercardPage = () => <Layout>
+const mastercardPage = () => <Layout>
     <div>
     <Banner 
       image={require('../images/hero-mastercard.jpg')}
@@ -91,4 +91,4 @@ const MastercardPage = () => <Layout>
   </div>
 </Layout>
 
-export default MastercardPage
+export default mastercardPage

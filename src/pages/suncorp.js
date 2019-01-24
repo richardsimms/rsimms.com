@@ -7,7 +7,7 @@ import ReactPlayer from 'react-player';
 import Layout from '../components/layout';
 
 
-const SuncorpPage = () => <Layout>
+const suncorpPage = () => <Layout>
   <div>
   <Banner 
     image={require('../images/hero-suncorp.jpg')}
@@ -104,4 +104,4 @@ const SuncorpPage = () => <Layout>
   </div>
 </Layout>
 
-export default SuncorpPage
+export default suncorpPage

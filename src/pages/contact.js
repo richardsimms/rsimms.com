@@ -33,7 +33,7 @@ const Contact = styled.div`
 const blank = styled.div``
 const info = styled.div``
 
-const ContactPage = () => <Layout>
+const contactPage = () => <Layout>
     <div>
         <Contact>
         <blank></blank>
@@ -48,4 +48,4 @@ const ContactPage = () => <Layout>
     </div>
 </Layout>
 
-export default ContactPage
+export default contactPage

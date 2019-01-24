@@ -7,7 +7,7 @@ import ReactPlayer from 'react-player';
 import Layout from '../components/layout';
 
 
-const ETPage = () => <Layout>
+const etPage = () => <Layout>
   <div>
   <Banner 
     image={require('../images/hero-et.jpg')}
@@ -81,4 +81,4 @@ const ETPage = () => <Layout>
   </div>
 </Layout>
 
-export default ETPage
+export default etPage

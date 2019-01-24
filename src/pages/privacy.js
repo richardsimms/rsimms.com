@@ -4,7 +4,7 @@ import Banner from '../components/Banner';
 import Layout from '../components/layout';
 
 
-const PrivacyPage = () => <Layout>
+const privacyPage = () => <Layout>
   <div>
       <Banner 
       image={require('../images/hero-privacy.jpg')}
@@ -72,4 +72,4 @@ const PrivacyPage = () => <Layout>
   </div>
 </Layout>
 
-export default PrivacyPage
+export default privacyPage

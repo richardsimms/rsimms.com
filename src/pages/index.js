@@ -5,7 +5,7 @@ import Summary from '../components/Summary';
 import Footer from '../components/Footer';
 import Banner from '../components/Banner';
 
-const IndexPage = () => <Layout>
+const indexPage = () => <Layout>
   <div>
   <Banner 
     image={require('../images/hero-et.jpg')}
@@ -73,4 +73,4 @@ const IndexPage = () => <Layout>
     <Footer />
   </div>
 </Layout>
-export default IndexPage
+export default indexPage
