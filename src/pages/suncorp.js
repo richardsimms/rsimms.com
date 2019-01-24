@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Card from '../components/Card';
 import Summary from '../components/Summary';
 import Footer from '../components/Footer';
