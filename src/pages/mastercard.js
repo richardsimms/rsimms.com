@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import Banner from '../components/Banner';
 import ReactPlayer from 'react-player';
 import Layout from '../components/layout';
-
+import "../components/layout.css";
 
 const mastercardPage = () => <Layout>
     <div>

@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from '../components/Footer';
 import Banner from '../components/Banner';
 import Layout from '../components/layout';
-
+import "../components/layout.css";
 
 const privacyPage = () => <Layout>
   <div>

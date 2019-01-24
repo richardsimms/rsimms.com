@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import Banner from '../components/Banner';
 import ReactPlayer from 'react-player';
 import Layout from '../components/layout';
+import "../components/layout.css";
 
 const espnPage = () => <Layout>
     <div>
@@ -19,7 +20,7 @@ const espnPage = () => <Layout>
       <p>The challenge was to create an environment which allowed football pundits to analyse tactics and formations in a full 3D environment.</p>
     </div>
     <div className="video">
-      <ReactPlayer url='https://vimeo.com/54402005' playing loop 
+      <ReactPlayer url='https://vimeo.com/54402005' playing loop muted
         width='100%'
         height='100%'
       />
@@ -31,7 +32,7 @@ const espnPage = () => <Layout>
       <p>To find a solution, we were going to have to re-invent the wheel; or rather... the ball.</p>
     </div>
     <div className="video">
-      <ReactPlayer url='https://vimeo.com/54403650' playing loop 
+      <ReactPlayer url='https://vimeo.com/54403650' playing loop muted
         width='100%'
         height='100%'
       />
