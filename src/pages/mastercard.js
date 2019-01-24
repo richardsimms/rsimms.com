@@ -3,7 +3,7 @@ import Card from '../components/Card';
 import Summary from '../components/Summary';
 import Footer from '../components/Footer';
 import Banner from '../components/Banner';
-
+import ReactPlayer from 'react-player';
 import Layout from '../components/layout';
 
 
@@ -21,7 +21,10 @@ const mastercardPage = () => <Layout>
       <p>Therefore, our challenge was twofold. Not only did they require a stunning, easy to understand, engaging product but in order to succeed, it was going to have to revolutionise the loyalty programme industry.</p>
     </div>
     <div className="video">
-
+      <ReactPlayer url='https://vimeo.com/203381109' playing loop 
+        width='100%'
+        height='100%'
+      />
     </div>
     <div className="ContentGroup">      
       <h3>Our approach</h3>
