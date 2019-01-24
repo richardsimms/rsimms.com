@@ -16,6 +16,7 @@
     "gatsby-plugin-sharp": "^2.0.18",
     "gatsby-source-contentful": "^2.0.26",
     "gatsby-transformer-sharp": "^2.1.10",
+    "node-sass": "^4.11.0",
     "npmvet": "^0.1.5",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
