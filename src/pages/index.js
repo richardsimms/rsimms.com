@@ -5,7 +5,6 @@ import Summary from '../components/Summary';
 import Footer from '../components/Footer';
 import Banner from '../components/Banner';
 
-
 const IndexPage = () => <Layout>
   <div>
   <Banner 
@@ -42,7 +41,6 @@ const IndexPage = () => <Layout>
       title="Who I love to work with"
       text1="For me, it’s important to be sector agnostic. I work with businesses of all scales, from start-ups raising their first funding to global household names. To uncover new opportunities to create a new and unique experience that create value."
     />
-    
     <div className="Cards">
      <h2>Recent work</h2>
       <div className="CardGroup">
@@ -65,7 +63,6 @@ const IndexPage = () => <Layout>
           image={require('../images/card-et.jpg')}
           />
         <Card  
-          
           link="/espn"
           title="ESPN PL" 
           text="AR Design"
@@ -73,10 +70,7 @@ const IndexPage = () => <Layout>
           />
         </div>
     </div>
-
-
     <Footer />
   </div>
 </Layout>
-
 export default IndexPage
