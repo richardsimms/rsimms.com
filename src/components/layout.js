@@ -7,9 +7,11 @@ import { graphql } from "gatsby"
 
 const Layout = ({ children, data }) => (
   <div>
-    <Helmet
-
-    />
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>My Title</title>
+      <link rel="canonical" href="http://mysite.com/example" />
+    </Helmet>
     <Header />
       {children}
 
