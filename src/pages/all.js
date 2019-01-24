@@ -5,7 +5,7 @@ import Section from '../components/Section';
 import Wave from '../components/Wave';
 import Summary from '../components/Summary';
 import Footer from '../components/Footer';
-import Layout from "../components/layout";
+import Layout from '../components/layout';
 
 
 const IndexPage = () => <Layout>
