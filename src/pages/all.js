@@ -5,12 +5,11 @@ import Section from '../components/Section';
 import Wave from '../components/Wave';
 import Summary from '../components/Summary';
 import Footer from '../components/Footer';
-import Header from '../components/header';
-import '../layouts/index.css';
+import Layout from "../components/layout"
 
-const IndexPage = () => (
+
+const IndexPage = () => <Layout>
   <div>
-  <Header />
     <div>
       <div className="Hero">
       
@@ -97,6 +96,6 @@ const IndexPage = () => (
     />
     <Footer />
   </div>
-)
+</Layout>
 
 export default IndexPage

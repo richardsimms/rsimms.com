@@ -1,12 +1,11 @@
 import React from 'react'
 import Footer from '../components/Footer';
 import Banner from '../components/Banner';
-import Header from '../components/header';
-import '../layouts/index.css';
+import Layout from "../components/layout"
 
-const PrivacyPage = () => (
+
+const PrivacyPage = () => <Layout>
   <div>
-  <Header />
       <Banner 
       image={require('../images/hero-privacy.jpg')}
       title="Privacy Policy"
@@ -71,6 +70,6 @@ const PrivacyPage = () => (
         </div>
         <Footer />
   </div>
-)
+</Layout>
 
 export default PrivacyPage

@@ -1,12 +1,11 @@
 import React from 'react'
 import Wave from '../components/Wave';
 import Footer from '../components/Footer';
-import '../layouts/index.css';
-import Header from '../components/header';
+import Layout from "../components/layout"
 
-const vauleBasedDesignPage = () => (
+
+const vauleBasedDesignPage = () => <Layout>
   <div>
-  <Header />
     <div>
       <div className="Hero">
         <div className="HeroGroup">
@@ -55,6 +54,6 @@ const vauleBasedDesignPage = () => (
     </div>
     <Footer />
   </div>
-)
+</Layout>
 
 export default vauleBasedDesignPage

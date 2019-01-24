@@ -1,7 +1,8 @@
 import React from 'react'
 import styled  from 'styled-components'
-import Header from '../components/header';
-import '../layouts/index.css';
+import Layout from "../components/layout"
+
+
 
 
 const Contact = styled.div`
@@ -32,9 +33,8 @@ const Contact = styled.div`
 const blank = styled.div``
 const info = styled.div``
 
-const ContactPage = () => (
+const ContactPage = () => <Layout>
     <div>
-        <Header />
         <Contact>
         <blank></blank>
         <info>
@@ -46,7 +46,6 @@ const ContactPage = () => (
         </info>
     </Contact>
     </div>
-
-)
+</Layout>
 
 export default ContactPage

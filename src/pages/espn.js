@@ -4,12 +4,11 @@ import Summary from '../components/Summary';
 import Footer from '../components/Footer';
 import Banner from '../components/Banner';
 import ReactPlayer from 'react-player';
-import Header from '../components/header';
-import '../layouts/index.css';
+import Layout from "../components/layout"
 
-const ESPNPage = () => (
+
+const ESPNPage = () => <Layout>
     <div>
-    <Header />
     <Banner 
       image={require('../images/hero-espn.jpg')}
       title="ESPN"
@@ -83,6 +82,6 @@ const ESPNPage = () => (
 
     <Footer />
   </div>
-)
+</Layout>
 
 export default ESPNPage

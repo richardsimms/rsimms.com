@@ -3,12 +3,10 @@ import Card from '../components/Card';
 import Summary from '../components/Summary';
 import Footer from '../components/Footer';
 import Banner from '../components/Banner';
-import Header from '../components/header';
-import '../layouts/index.css';
+import Layout from "../components/layout"
 
-const IndexPage = () => (
+const IndexPage = () => <Layout>
   <div>
-  <Header />
   <Banner 
     image={require('../images/hero-et.jpg')}
     title="Designer & UX Lead"
@@ -78,6 +76,6 @@ const IndexPage = () => (
 
     <Footer />
   </div>
-)
+</Layout>
 
 export default IndexPage

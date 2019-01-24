@@ -4,12 +4,11 @@ import Summary from '../components/Summary';
 import Footer from '../components/Footer';
 import Banner from '../components/Banner';
 import ReactPlayer from 'react-player';
-import Header from '../components/header';
-import '../layouts/index.css';
+import Layout from "../components/layout"
 
-const MastercardPage = () => (
+
+const MastercardPage = () => <Layout>
     <div>
-    <Header />
     <Banner 
       image={require('../images/hero-mastercard.jpg')}
       title="Mastercard"
@@ -90,6 +89,6 @@ const MastercardPage = () => (
 
     <Footer />
   </div>
-)
+</Layout>
 
 export default MastercardPage
