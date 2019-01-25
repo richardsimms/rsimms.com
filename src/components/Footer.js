@@ -8,11 +8,6 @@ const SectionGroup = styled.div`
     width: 100%;
     padding: 90px 0;
     margin: 0 auto; 
-    
-
-    @media (max-width: 640px) {
-        
-    }
 `
 
 const SectionTitleGroup = styled.div`

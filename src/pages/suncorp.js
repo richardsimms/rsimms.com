@@ -8,11 +8,7 @@ import ReactPlayer from 'react-player';
 
 const suncorpPage = () => <Layout>
   <div>
-  <Banner 
-    image={require('../images/hero-suncorp.jpg')}
-    title="Suncorp App"
-    text=""
-  />
+
     <div className="ContentGroup">      
       <h3>A single destination</h3>
       <p>For customers to manage their financial well-being. Enable them to see, store and do everything to manage their money, home, car and health needs in one place.</p>

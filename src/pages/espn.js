@@ -9,11 +9,7 @@ import "../components/layout.css";
 
 const espnPage = () => <Layout>
     <div>
-    <Banner 
-      image={require('../images/hero-espn.jpg')}
-      title="ESPN"
-      text=""
-    />
+
     <div className="ContentGroup">      
       <h3>AR Presenter’s Touchscreen </h3>
       <p>In 2011, ESPN needed an innovative, 21st Century design concept to visualise and demonstrate tactics to up to one and a half million viewers of their English Premier League show each Saturday.</p>

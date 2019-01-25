@@ -9,11 +9,7 @@ import "../components/layout.css";
 
 const mastercardPage = () => <Layout>
     <div>
-    <Banner 
-      image={require('../images/hero-mastercard.jpg')}
-      title="Mastercard"
-      text=""
-    />
+
     <div className="ContentGroup">      
       <h3>Airline Loyalty Programme Experience</h3>
       <p>MasterCard wanted to expand their business into the loyalty programme sector, so needed a prototype app they could pitch to other businesses.</p>

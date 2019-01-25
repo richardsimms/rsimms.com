@@ -6,11 +6,7 @@ import "../components/layout.css";
 
 const privacyPage = () => <Layout>
 <div>
-    <Banner 
-      image={require('../images/hero-privacy.jpg')}
-      title="Privacy Policy"
-      text=" "
-    />
+
     <div className="ContentGroup"> 
 
         <p>Richard Simms operates the rsimms.com website, which provides the SERVICE.</p>
