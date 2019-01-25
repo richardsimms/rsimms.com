@@ -49,7 +49,7 @@ const SectionTitle = styled.h3`
 `
 
 const Banner = props => (
-    <SectionGroup image={props.image}>
+    <SectionGroup image={props.image} alt={props.title}>
         <SectionTitleGroup>
             <SectionTitle>{props.title}</SectionTitle>
         </SectionTitleGroup>

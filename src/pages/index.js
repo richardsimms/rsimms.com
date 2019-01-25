@@ -4,7 +4,7 @@ import Card from '../components/Card';
 import Summary from '../components/Summary';
 import Footer from '../components/Footer';
 import Banner from '../components/Banner';
-import "../components/layout.css";
+
 
 const indexPage = () => <Layout>
   <div>

@@ -10,7 +10,7 @@ import "../components/layout.css";
 const suncorpPage = () => <Layout>
   <div>
   <Banner 
-    image={require('../images/hero-suncorp.jpg')}
+    image={require('../images/card-et.jpg')}
     title="Suncorp App"
     text=""
   />
