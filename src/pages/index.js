@@ -3,16 +3,16 @@ import Layout from '../components/layout';
 import Card from '../components/Card';
 import Summary from '../components/Summary';
 import Footer from '../components/Footer';
-import Banner from '../components/Banner';
+
 
 
 const indexPage = () => <Layout>
   <div>
-  <Banner 
-    image={require('../images/hero-et.jpg')}
-    title="Designer & UX Lead"
-    text=""
-  />
+    <div className="BannerIndex">
+      <div className="SectionTitleGroup">
+        <div className="SectionTitle"><h3>Designer & UX Lead</h3></div>
+      </div>
+    </div>
     <div className="ContentGroup">      
       <h3>Making products come alive</h3>
       <p>Helping companies deliver real value across product design and development, by knowing that they are investing in designing right things. I work with teams, to understand the features that go into the products and make sure they actually solve the underlying customer and business problems. I guide teams to create more valuable design work through strategic design and lean UX practice.</p> 

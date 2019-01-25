@@ -2,14 +2,17 @@ import React from 'react'
 import Card from '../components/Card';
 import Summary from '../components/Summary';
 import Footer from '../components/Footer';
-import Banner from '../components/Banner';
 import ReactPlayer from 'react-player';
 import Layout from '../components/layout';
 import "../components/layout.css";
 
 const etPage = () => <Layout>
   <div>
-
+  <div className="BannerET">
+      <div className="SectionTitleGroup">
+        <div className="SectionTitle"><h3>Designer & UX Lead</h3></div>
+      </div>
+    </div>
     <div className="ContentGroup">      
       <h3>European Tour Website</h3>
       <p>The PGA wanted a new website to showcase the live, at-event experience of their premiere golf stage - The European Tour.</p>

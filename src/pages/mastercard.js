@@ -2,14 +2,17 @@ import React from 'react';
 import Card from '../components/Card';
 import Summary from '../components/Summary';
 import Footer from '../components/Footer';
-import Banner from '../components/Banner';
 import ReactPlayer from 'react-player';
 import Layout from '../components/layout';
 import "../components/layout.css";
 
 const mastercardPage = () => <Layout>
     <div>
-
+    <div className="BannerMastercard">
+      <div className="SectionTitleGroup">
+        <div className="SectionTitle"><h3>Designer & UX Lead</h3></div>
+      </div>
+    </div>
     <div className="ContentGroup">      
       <h3>Airline Loyalty Programme Experience</h3>
       <p>MasterCard wanted to expand their business into the loyalty programme sector, so needed a prototype app they could pitch to other businesses.</p>

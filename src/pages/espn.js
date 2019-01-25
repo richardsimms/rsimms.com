@@ -2,14 +2,17 @@ import React from 'react';
 import Card from '../components/Card';
 import Summary from '../components/Summary';
 import Footer from '../components/Footer';
-import Banner from '../components/Banner';
 import ReactPlayer from 'react-player';
 import Layout from '../components/layout';
 import "../components/layout.css";
 
 const espnPage = () => <Layout>
     <div>
-
+    <div className="BannerESPN">
+      <div className="SectionTitleGroup">
+        <div className="SectionTitle"><h3>Designer & UX Lead</h3></div>
+      </div>
+    </div>
     <div className="ContentGroup">      
       <h3>AR Presenter’s Touchscreen </h3>
       <p>In 2011, ESPN needed an innovative, 21st Century design concept to visualise and demonstrate tactics to up to one and a half million viewers of their English Premier League show each Saturday.</p>

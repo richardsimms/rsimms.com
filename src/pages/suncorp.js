@@ -3,12 +3,15 @@ import Layout from '../components/layout';
 import Card from '../components/Card';
 import Summary from '../components/Summary';
 import Footer from '../components/Footer';
-import Banner from '../components/Banner';
 import ReactPlayer from 'react-player';
 
 const suncorpPage = () => <Layout>
   <div>
-
+  <div className="BannerSuncorp">
+      <div className="SectionTitleGroup">
+        <div className="SectionTitle"><h3>Designer & UX Lead</h3></div>
+      </div>
+    </div>
     <div className="ContentGroup">      
       <h3>A single destination</h3>
       <p>For customers to manage their financial well-being. Enable them to see, store and do everything to manage their money, home, car and health needs in one place.</p>
