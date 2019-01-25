@@ -196,8 +196,9 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-gap: 70px;
   justify-items: center;
-
-  @media (max-width: 720px) {
+}
+@media (max-width: 720px) {
+  .ImageBlock {
     grid-template-columns: 1fr;
   }
 }
@@ -260,8 +261,9 @@ imageoverlap:nth-child(2) {
   grid-gap: -20px;
   justify-items: center;
   align-items: center;
-
-  @media (max-width: 720px) {
+}
+@media (max-width: 720px) {
+  .video {
     width: 375px;
     height: 210px;
   }
@@ -275,9 +277,9 @@ imageoverlap:nth-child(2) {
   grid-gap: -20px;
   justify-items: center;
   align-items: center;
- 
-
-  @media (max-width: 720px) {
+}
+@media (max-width: 720px) {
+  .videop {
     width: 375px;
     height: 210px;
   }
