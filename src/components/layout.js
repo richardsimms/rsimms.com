@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 import Header from '../components/header';
-import "./layout.css";
+import styles from "./layout.css";
 
 
 
@@ -20,4 +20,3 @@ const Layout = ({ children, data }) => (
 
 
 export default Layout
-

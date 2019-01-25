@@ -1,16 +1,15 @@
 import React from 'react';
+import Layout from '../components/layout';
 import Card from '../components/Card';
 import Summary from '../components/Summary';
 import Footer from '../components/Footer';
 import Banner from '../components/Banner';
 import ReactPlayer from 'react-player';
-import Layout from '../components/layout';
-import "../components/layout.css";
 
 const suncorpPage = () => <Layout>
   <div>
   <Banner 
-    image={require('../images/card-et.jpg')}
+    image={require('../images/hero-et.jpg')}
     title="Suncorp App"
     text=""
   />
@@ -98,8 +97,6 @@ const suncorpPage = () => <Layout>
           />
         </div>
     </div>
-
-
     <Footer />
   </div>
 </Layout>

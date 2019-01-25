@@ -5,11 +5,11 @@ import Layout from '../components/layout';
 import "../components/layout.css";
 
 const privacyPage = () => <Layout>
-  <div>
-      <Banner 
+<div>
+    <Banner 
       image={require('../images/hero-privacy.jpg')}
       title="Privacy Policy"
-      text="Even if we are designing things right, which we do. Teams today are all too often feature factories. With little knowledge for if the features actually solve the underlying business problems."
+      text=" "
     />
     <div className="ContentGroup"> 
 
@@ -68,7 +68,7 @@ const privacyPage = () => <Layout>
 
         <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.</p>
         </div>
-        <Footer />
+    <Footer />
   </div>
 </Layout>
 

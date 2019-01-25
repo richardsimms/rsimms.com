@@ -9,7 +9,11 @@ import "../components/layout.css";
 
 const etPage = () => <Layout>
   <div>
-
+  <Banner 
+    image={require('../images/hero-et.jpg')}
+    title="European Tour"
+    text=""
+  />
     <div className="ContentGroup">      
       <h3>European Tour Website</h3>
       <p>The PGA wanted a new website to showcase the live, at-event experience of their premiere golf stage - The European Tour.</p>

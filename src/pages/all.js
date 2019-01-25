@@ -12,7 +12,6 @@ const allPage = () => <Layout>
   <div>
     <div>
       <div className="Hero">
-      
         <div className="HeroGroup">
           <h1>Learn to deliver value for all your work</h1>
           <h2>Design methods and principles that you can put to work right away on a product and a variety of projects.</h2>
