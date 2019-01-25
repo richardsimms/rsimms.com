@@ -9,7 +9,7 @@ import ReactPlayer from 'react-player';
 const suncorpPage = () => <Layout>
   <div>
   <Banner 
-    image={require('../images/hero-et.jpg')}
+    image={require('../images/hero-suncorp.jpg')}
     title="Suncorp App"
     text=""
   />
