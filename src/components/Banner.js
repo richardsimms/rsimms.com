@@ -19,7 +19,7 @@ const TextAnimation = keyframes`
     }
 `
 
-const SectionGroup = styled.div`
+const BannerGroup = styled.div`
     background-image: url(${props => props.image});
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,7 +31,7 @@ const SectionGroup = styled.div`
     justify-items: center;
     animation: ${BounceAnimation} 3s .3s forwards cubic-bezier(0.1, 0.8, 1, 1);
 `
-const SectionTitleGroup = styled.div`
+const BannerTitleGroup = styled.div`
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 90vh;
@@ -41,7 +41,7 @@ const SectionTitleGroup = styled.div`
     opacity: 0;
     animation: ${TextAnimation} 3s 1.3s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 `
-const SectionTitle = styled.h3`
+const BannerTitle = styled.h3`
     color: white;
     font-size: 24px;
     font-weight: 800;
@@ -49,11 +49,11 @@ const SectionTitle = styled.h3`
 `
 
 const Banner = props => (
-    <SectionGroup image={props.image} alt={props.title}>
-        <SectionTitleGroup>
-            <SectionTitle>{props.title}</SectionTitle>
-        </SectionTitleGroup>
-    </SectionGroup>
+    <BannerGroup image={props.image} alt={props.title}>
+        <BannerTitleGroup>
+            <BannerTitle>{props.title}</BannerTitle>
+        </BannerTitleGroup>
+    </BannerGroup>
 )
 
 

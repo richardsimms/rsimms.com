@@ -2,7 +2,7 @@ import React from 'react';
 import styled  from 'styled-components';
 
 
-const SectionGroup = styled.div`
+const FooterGroup = styled.div`
     position: relative;
     max-width: 960px;
     width: 100%;
@@ -10,7 +10,7 @@ const SectionGroup = styled.div`
     margin: 0 auto; 
 `
 
-const SectionTitleGroup = styled.div`
+const FooterTitleGroup = styled.div`
     max-width: 800px;
     display: grid;
     grid-gap: 20px;
@@ -27,7 +27,7 @@ const SectionTitleGroup = styled.div`
     }
 `
 
-const SectionText = styled.a`
+const FooterText = styled.a`
     color: #333333;
     font-size: 14px;
     font-weight: 400;
@@ -43,13 +43,13 @@ const SectionText = styled.a`
 
 
 const Footer = props => (
-    <SectionGroup>
-        <SectionTitleGroup>
-            <SectionText><a href="https://www.instagram.com/valuebased.design/channel/">Instagram</a></SectionText>
-            <SectionText><a href="/privacy">Privacy Policy</a></SectionText>
-            <SectionText>©RSIMMS</SectionText>
-        </SectionTitleGroup>
-    </SectionGroup>
+    <FooterGroup>
+        <FooterTitleGroup>
+            <FooterText><a href="https://www.instagram.com/valuebased.design/channel/">Instagram</a></FooterText>
+            <FooterText><a href="/privacy">Privacy Policy</a></FooterText>
+            <FooterText>©RSIMMS</FooterText>
+        </FooterTitleGroup>
+    </FooterGroup>
 )
 
 
