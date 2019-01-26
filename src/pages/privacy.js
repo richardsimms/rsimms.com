@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from '../components/Footer';
 import Layout from '../components/layout';
+import Hero from '../components/Hero';
 import "../components/layout.css";
 
 const privacyPage = () => <Layout>
@@ -10,6 +11,12 @@ const privacyPage = () => <Layout>
         <div className="SectionTitle"><h3>Privacy policy</h3></div>
       </div>
     </div>
+    
+    <Hero 
+    image={require('../images/hero-et.jpg')}
+    title="European Tour"
+    text=""
+  />
     <div className="ContentGroup"> 
 
         <p>Richard Simms operates the rsimms.com website, which provides the SERVICE.</p>

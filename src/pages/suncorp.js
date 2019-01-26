@@ -3,6 +3,7 @@ import Layout from '../components/layout';
 import Card from '../components/Card';
 import Footer from '../components/Footer';
 import ReactPlayer from 'react-player';
+import Summary from '../components/Summary';
 
 const suncorpPage = () => <Layout>
   <div>
