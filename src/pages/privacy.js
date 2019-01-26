@@ -5,7 +5,11 @@ import "../components/layout.css";
 
 const privacyPage = () => <Layout>
 <div>
-
+    <div className="BannerPrivacy">
+      <div className="SectionTitleGroup">
+        <div className="SectionTitle"><h3>Privacy policy</h3></div>
+      </div>
+    </div>
     <div className="ContentGroup"> 
 
         <p>Richard Simms operates the rsimms.com website, which provides the SERVICE.</p>

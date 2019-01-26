@@ -10,7 +10,7 @@ const etPage = () => <Layout>
   <div>
   <div className="BannerET">
       <div className="SectionTitleGroup">
-        <div className="SectionTitle"><h3>Designer & UX Lead</h3></div>
+        <div className="SectionTitle"><h3>European tour</h3></div>
       </div>
     </div>
     <div className="ContentGroup">      

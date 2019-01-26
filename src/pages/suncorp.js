@@ -59,7 +59,12 @@ const suncorpPage = () => <Layout>
       <imageoverlap><img className="Image" src={require('../images/img-large-suncorpflow.jpg')} alt="" /></imageoverlap>
       <imageoverlap><img className="Image" src={require('../images/img-small-suncorpffi.jpg')} alt="" /></imageoverlap>
     </div>
-    
+    <Summary 
+      title="App launch 🚀"
+      text1="The iOS and Android apps launched with a fast and secure access to bank accounts. Categorised transactions, transfer money, pay bills and make payments."
+      text2="Self-serves across Car, Home and Life Insurance, from updating address, pay renewals and new quotes. Make a claim and to be able to track the entire process from start to finish."
+      text3="Suncorp App’s also has a Virtual Assistant chatbot powered by Microsoft Watson to answer questions about specific bank accounts and insurance policies."
+    />
     <div className="Cards">
      <h2>Recent work</h2>
       <div className="CardGroup">

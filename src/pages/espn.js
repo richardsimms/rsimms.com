@@ -10,7 +10,7 @@ const espnPage = () => <Layout>
     <div>
     <div className="BannerESPN">
       <div className="SectionTitleGroup">
-        <div className="SectionTitle"><h3>Designer & UX Lead</h3></div>
+        <div className="SectionTitle"><h3>ESPN</h3></div>
       </div>
     </div>
     <div className="ContentGroup">      
