@@ -9,7 +9,7 @@ const suncorpPage = () => <Layout>
   <div>
   <div className="BannerSuncorp">
       <div className="SectionTitleGroup">
-        <div className="SectionTitle"><h3>Designer & UX Lead</h3></div>
+        <div className="SectionTitle"><h3>Suncorp App</h3></div>
       </div>
     </div>
     <div className="ContentGroup">      

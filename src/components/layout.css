@@ -351,7 +351,7 @@ imageoverlap:nth-child(2) {
   justify-items: center;
   animation: BounceAnimation 3s .3s forwards cubic-bezier(0.1, 0.8, 1, 1);
 }
-.BannerESPN{
+.BannerESPN {
   background-image: url("../images/hero-espn.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -363,7 +363,7 @@ imageoverlap:nth-child(2) {
   justify-items: center;
   animation: BounceAnimation 3s .3s forwards cubic-bezier(0.1, 0.8, 1, 1);
 }
-.BannerPrivacy{
+.BannerPrivacy {
   background-image: url("../images/hero-privacy.jpg");
   background-repeat: no-repeat;
   background-size: cover;

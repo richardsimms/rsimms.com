@@ -27,7 +27,7 @@ const indexPage = () => <Layout>
     </div>
     <div className="ImageBlock">
       <img className="Image" src={require('../images/img-square-mastercard.jpg')} alt="" />
-      <img className="Image" src={require('../images/1480267931265.gif')} alt="" />
+      <img className="Image" src={require('../images/img-portrait-mastercard.jpg')} alt="" />
     </div>
     <div className="ContentGroup">      
       <h3>I believe</h3>
@@ -55,7 +55,7 @@ const indexPage = () => <Layout>
           link="/mastercard" 
           title="Mastercard" 
           text="UX & UI Design"
-          image={require('../images/card-mastercard.jpg')}
+          image={require('../images/hero-mastercard.jpg')}
           />
         <Card  
           link="/european-tour"
