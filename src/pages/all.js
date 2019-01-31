@@ -18,12 +18,12 @@ const allPage = () => <Layout>
           <Link to="/video">Learn it for free</Link>
           <p>Get the 7 days free email course</p>
           <div className="Logos">
-            <img src={require('../images/logo-sketch.png')} alt="" width="50px" />
-            <img src={require('../images/logo-figma.png')} alt="" width="50px" />
-            <img src={require('../images/logo-framer.png')} alt="" width="50px" />
-            <img src={require('../images/logo-studio.png')} alt="" width="50px" />
-            <img src={require('../images/logo-swift.png')} alt="" width="50px" />
-            <img src={require('../images/logo-react.png')} alt="" width="50px" />
+            <img src={require('../images/logo_lean-startup.png')}  width="50px" alt="Lean Startup" />
+            <img src={require('../images/logo-mtp.png')}  width="50px" alt="Mind the Product" />
+            <img src={require('../images/logo_svpg.png')}  width="50px" alt="SVPG" />
+            <img src={require('../images/logo_ideo.png')}  width="50px" alt="Ideo" />
+            <img src={require('../images/logo_cowan.png')}  width="50px" alt="Alexander Cowan" />
+            <img src={require('../images/logo_GV.png')}  width="50px" alt="Google Ventures" />
           </div>
         <Wave />
         </div>
