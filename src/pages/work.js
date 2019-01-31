@@ -62,7 +62,7 @@ const workPage = () => (
                 <a href="/mastercard"><p>Mastercard</p></a>
                 <a href="/espn"><p>ESPN EPL</p></a>
                 <Process><hr /></Process>
-                <Process><a href="/course"><p>Process</p></a></Process>
+                <Process><a href="/process"><p>Process</p></a></Process>
             </info>
         </Work>
     </div>

@@ -4,6 +4,7 @@ import Card from '../components/Card';
 import Summary from '../components/Summary';
 import Footer from '../components/Footer';
 import Wave from '../components/Wave';
+import Link from 'gatsby-link';
 
 
 const indexPage = () => <Layout>
@@ -12,7 +13,7 @@ const indexPage = () => <Layout>
       <div className="Hero">
         <div className="HeroGroup">
           <h1>Design to deliver value</h1>
-          <h2>I <a href="/work">design</a>, <a href="https://medium.com/value-based-design/value-is-the-reuleaux-triangle-of-design-thinking-87e4a388e5a4">write about</a>, and <a href="/contact">speak on</a> creating valuable products for mobile apps, and responsive websites.</h2>
+          <h2>I <Link to="/work">design</Link>, <a href="https://medium.com/value-based-design/value-is-the-reuleaux-triangle-of-design-thinking-87e4a388e5a4">write about</a>, and <Link to="/contact">speak on</Link> creating valuable products for mobile apps, and responsive websites.</h2>
           <div className="Logos"></div>
         <Wave />
         </div>
