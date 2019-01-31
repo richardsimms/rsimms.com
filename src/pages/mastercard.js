@@ -37,16 +37,16 @@ const mastercardPage = () => <Layout>
       </ul>
     </div>
     <div className="ImageOverlap">
-      <imageoverlap><img className="Image" src={require('../images/img-large-mastercard.jpg')} alt="" /></imageoverlap>
-      <imageoverlap><img className="Image" src={require('../images/img-small-mastercard.jpg')} alt="" /></imageoverlap>
+      <imageoverlap><img className="Image" src={require('../images/img-large-mastercard.jpg')} alt="Collection of Mastercard screens" /></imageoverlap>
+      <imageoverlap><img className="Image" src={require('../images/img-small-mastercard.jpg')} alt="Appmap of Mastercard app" /></imageoverlap>
     </div>
     <div className="ContentGroup">      
       <p>We delivered a high-fidelity, interactive, clickable prototype or customers to access via their smartphones. Featuring 48 demo screens which could be used in a free flow manner via our hidden, built-in menu system to start each journey.</p>
       <p>We created bespoke a micro-interaction pattern system featuring ‘confirmation button behaviour’ to give customers a strong feeling of completion.</p>
     </div>
     <div className="ImageBlock">
-      <img className="Image" src={require('../images/1480267931265.gif')} alt="" />
-      <img className="Image" src={require('../images/1480268875443.gif')} alt="" />
+      <img className="Image" src={require('../images/1480267931265.gif')} alt="Transaction history and balence screen" />
+      <img className="Image" src={require('../images/1480268875443.gif')} alt="Home screen" />
     </div>
     <Summary 
       title="I designed and lead my team to create visuals for a high-fidelity prototype"
@@ -56,7 +56,7 @@ const mastercardPage = () => <Layout>
     />
     
     <div className="Cards">
-     <h2>Recent work</h2>
+    <h2>What I've made</h2>
       <div className="CardGroup">
         <Card  
             link="/suncorp"

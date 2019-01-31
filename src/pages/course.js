@@ -9,17 +9,16 @@ const vauleBasedDesignPage = () => <Layout>
     <div>
       <div className="Hero">
         <div className="HeroGroup">
-          <h1>Learn to deliver value for all your work</h1>
-          <h2>Design methods and principles that you can put to work right away on a product and a variety of projects.</h2>
-          <a href="http://valuebased.design/Value-based-design.pdf">Downlaod it for free</a>
-          <p></p>
+          <h1>At the centre of human-centred design lies value</h1>
+          <h2>These are the methods and principles I practice to create amazing products. Though continuous research, measurement, and experimentations to increase confidence and put value at the centre of my work.</h2>
+          <p><a href="https://medium.com/value-based-design/value-is-the-reuleaux-triangle-of-design-thinking-87e4a388e5a4">Read more on Medium</a></p>
           <div className="Logos">
-            <img src={require('../images/logo-lean_startup.png')}  width="50px" alt="" />
-            <img src={require('../images/logo-figma.png')}  width="50px" alt="" />
-            <img src={require('../images/logo-framer.png')}  width="50px" alt="" />
-            <img src={require('../images/logo-studio.png')}  width="50px" alt="" />
-            <img src={require('../images/logo-swift.png')}  width="50px" alt="" />
-            <img src={require('../images/logo-react.png')}  width="50px" alt="" />
+            <img src={require('../images/logo_lean-startup.png')}  width="50px" alt="Lean Startup" />
+            <img src={require('../images/logo-mtp.png')}  width="50px" alt="Mind the Product" />
+            <img src={require('../images/logo_svpg.png')}  width="50px" alt="SVPG" />
+            <img src={require('../images/logo_ideo.png')}  width="50px" alt="Ideo" />
+            <img src={require('../images/logo_cowan.png')}  width="50px" alt="Alexander Cowan" />
+            <img src={require('../images/logo_GV.png')}  width="50px" alt="Google Ventures" />
           </div>
         <Wave />
         </div>
@@ -31,8 +30,8 @@ const vauleBasedDesignPage = () => <Layout>
       <p>Learn to focus on delivering value for business and customers. This email course will be your guide to create more valuable design work. Made for those looking to move into Strategic Design roles or those looking to add UX Strategy to their skillset.</p>
     </div>
     <div className="ImageBlock">
-      <img className="Image" src={require('../images/img-square.png')} alt="" />
-      <img className="Image" src={require('../images/img-portrait.png')} alt="" />
+      <img className="Image" src={require('../images/img-square.png')} alt="Mobile shopping concepts" />
+      <img className="Image" src={require('../images/img-portrait.png')} alt="E Commerce Overview screen" />
     </div>
     <div className="ContentGroup">      
       <h3>Digital products</h3>
@@ -45,8 +44,8 @@ const vauleBasedDesignPage = () => <Layout>
       <p><em>This course aims to solve these questions. Cut through the Random feature list with something valuable. From oh no! To fuck yeah!</em></p>
     </div>
     <div className="ImageOverlap">
-    <imageoverlap><img className="Image" src={require('../images/img-large.png')} alt="" /></imageoverlap>
-    <imageoverlap><img className="Image" src={require('../images/img-small.png')} alt="" /></imageoverlap>
+    <imageoverlap><img className="Image" src={require('../images/img-large.png')} alt="Illustration of a lady sitting on a phone" /></imageoverlap>
+    <imageoverlap><img className="Image" src={require('../images/img-small.png')} alt="Illustration of collaboration" /></imageoverlap>
     </div>
     <div className="ContentGroup">      
       <h3>Add value to your design process</h3>

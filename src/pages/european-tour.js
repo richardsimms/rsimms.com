@@ -19,8 +19,8 @@ const etPage = () => <Layout>
       <p>This would be quite some feat because The European Tour competition is a year-long Race to Dubai, where the winner is crowned and covers 47 tournaments across 26 countries.</p>
     </div>
     <div className="ImageOverlap">
-        <imageoverlap><img className="Image" src={require('../images/img-large-et.jpg')} alt="" /></imageoverlap>
-        <imageoverlap><img className="Image" src={require('../images/img-small-et.jpg')} alt="" /></imageoverlap>
+        <imageoverlap><img className="Image" src={require('../images/img-large-et.jpg')} alt="Collection of components" /></imageoverlap>
+        <imageoverlap><img className="Image" src={require('../images/img-small-et.jpg')} alt="Close up of component in iPad" /></imageoverlap>
     </div>
     <div className="ContentGroup">      
       <h3>Approach</h3>
@@ -46,7 +46,7 @@ const etPage = () => <Layout>
     />
     
     <div className="Cards">
-     <h2>Recent work</h2>
+    <h2>What I've made</h2>
       <div className="CardGroup">
         <Card  
             link="/suncorp"

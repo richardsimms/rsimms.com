@@ -34,8 +34,8 @@ const suncorpPage = () => <Layout>
       <p>Throughout discovery, we continually gathered feedback from customers. We tested everything from the value proposition, the navigation concepts to the desirability of individual features. </p>
     </div>
     <div className="ImageOverlap">
-    <imageoverlap><img className="Image" src={require('../images/img-large-suncorp.jpg')} alt="" /></imageoverlap>
-      <imageoverlap><img className="Image" src={require('../images/img-small-appmap.jpg')} alt="" /></imageoverlap>
+    <imageoverlap><img className="Image" src={require('../images/img-large-suncorp.jpg')} alt="Three mobile app screens" /></imageoverlap>
+      <imageoverlap><img className="Image" src={require('../images/img-small-appmap.jpg')} alt="Appmap of Suncorp App" /></imageoverlap>
     </div>
     
     <div className="ContentGroup">      
@@ -46,8 +46,8 @@ const suncorpPage = () => <Layout>
       <p>On projects of this size, communication is key and I was providing my stakeholder's holder with user testing summaries and prototypes of key experiences to present at their Senior Leadership team monthly updates.</p>
     </div>
     <div className="ImageBlock">
-      <img className="Image" src={require('../images/img-square-suncorp.jpg')} alt="" />
-      <img className="Image" src={require('../images/img-portrait-suncorp.jpg')} alt="" />
+      <img className="Image" src={require('../images/img-square-suncorp.jpg')} alt="Initial concepts" />
+      <img className="Image" src={require('../images/img-portrait-suncorp.jpg')} alt="Final overview screen" />
     </div>
     <div className="ContentGroup">      
       <h3>Design for development</h3>
@@ -57,8 +57,8 @@ const suncorpPage = () => <Layout>
       <p>After setting the vision, I was responsible for keeping consistency within the app across multiple design teams in three different locations. Along with the UI lead, we ran multiple checkpoints. From peer crits, design reviews with the client and showcases.</p>
     </div>
     <div className="ImageOverlap">
-      <imageoverlap><img className="Image" src={require('../images/img-large-suncorpflow.jpg')} alt="" /></imageoverlap>
-      <imageoverlap><img className="Image" src={require('../images/img-small-suncorpffi.jpg')} alt="" /></imageoverlap>
+      <imageoverlap><img className="Image" src={require('../images/img-large-suncorpflow.jpg')} alt="Wireflow of finacial screens" /></imageoverlap>
+      <imageoverlap><img className="Image" src={require('../images/img-small-suncorpffi.jpg')} alt="Final Money and Spending screen from the Suncorp App" /></imageoverlap>
     </div>
     <Summary 
       title="App launch 🚀"
@@ -67,7 +67,7 @@ const suncorpPage = () => <Layout>
       text3="Suncorp App’s also has a Virtual Assistant chatbot powered by Microsoft Watson to answer questions about specific bank accounts and insurance policies."
     />
     <div className="Cards">
-     <h2>Recent work</h2>
+    <h2>What I've made</h2>
       <div className="CardGroup">
         <Card  
           link="/suncorp"

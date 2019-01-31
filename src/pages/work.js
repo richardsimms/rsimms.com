@@ -39,25 +39,30 @@ const Work = styled.div`
         curser: pointer;
     }
 
-`
-const blank = styled.div`
+`;
+const Blank = styled.div``
+const Process = styled.div`
+    display: none; 
+
     @media (max-width: 640px) {
-        display: none;
+        display: block;
        
 }
-`
+`;
 const info = styled.div``
 
 const workPage = () => (
     <div>
         <Header />
         <Work>
-            <blank></blank>
+            <Blank></Blank>
             <info>
                 <a href="/suncorp"><p>Suncorp</p></a>
                 <a href="/european-tour"><p>European Tour</p></a>
                 <a href="/mastercard"><p>Mastercard</p></a>
                 <a href="/espn"><p>ESPN EPL</p></a>
+                <Process><hr /></Process>
+                <Process><a href="/course"><p>Process</p></a></Process>
             </info>
         </Work>
     </div>

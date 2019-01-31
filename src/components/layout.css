@@ -33,16 +33,22 @@ body {
     font-weight: 500;
     animation: HeroAnimation 3s 0.3s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
     opacity: 0;
-    margin-bottom: 50px;
+    margin-top: 1em;
+    margin-bottom: 2em;
   }
+.Hero a {
+  color: white;
+  text-decoration: underline;
+}
   .Hero p {
     color: rgba(255,255,255, 0.8);
     font-size: 12px;
     line-height: 1.5;
     font-weight: 500;
   }
-  .Hero a {
+  .Hero p a {
     font-size: 18px;
+    text-decoration: none;
     font-weight: 600;
     color: white;
     background: linear-gradient(104deg, #F99EB8 0%, #FA5483 100%);
@@ -50,7 +56,7 @@ body {
     border-radius: 20px;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
   }
-  .Hero a:hover {
+  .Hero p a:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
     color: white;
     background: #244E5F;
@@ -65,7 +71,7 @@ body {
 
   @media (max-width: 640px) {
     .HeroGroup {
-      padding: 100px 20px;
+      padding: 200px 20px;
     }
     .Hero h1 {
       font-size: 30px;
@@ -111,24 +117,29 @@ body {
 
 @media (max-width: 640px) {
   .ContentGroup {
-    padding: 100px 20px;
+    padding: 50px 20px;
   }
   .ContentGroup h2 {
     font-size:20px;
   }
+  .ContentGroup h3 {
+    margin: 0;
+  }
 }
 
 .ContentGroup h3 {
-  margin: 50px 0;
+  margin: 40px 0;
   font-size: 30px;
   text-align: left;
   font-weight: 700;
   background: linear-gradient(104deg, #F99EB8 0%, #FA5483 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-block-end: 0.5em;
 }
 
 .ContentGroup p {
+  margin-block-start: 0;
   color: #244E5F;
   font-size: 26px;
   line-height: 1.5;
@@ -411,7 +422,7 @@ imageoverlap:nth-child(2) {
 
 
     @media (max-width: 640px) {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr auto;
         grid-gap: 10px;
         justify-items: center;
         margin: 0 20px;
