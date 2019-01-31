@@ -23,7 +23,7 @@ const allPage = () => <Layout>
             <img src={require('../images/logo_svpg.png')}  width="50px" alt="SVPG" />
             <img src={require('../images/logo_ideo.png')}  width="50px" alt="Ideo" />
             <img src={require('../images/logo_cowan.png')}  width="50px" alt="Alexander Cowan" />
-            <img src={require('../images/logo_GV.png')}  width="50px" alt="Google Ventures" />
+            <img src={require('../images/logo_gv.png')}  width="50px" alt="Google Ventures" />
           </div>
         <Wave />
         </div>
