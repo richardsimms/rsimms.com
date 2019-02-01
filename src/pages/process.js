@@ -24,7 +24,7 @@ const vauleBasedDesignPage = () => <Layout>
         </div>
       </div>
     </div>
-    <div className="ContentGroup">      
+    <div className="ContentGroup ContentTop">      
       <h3>Design the right thing</h3>
       <p>Even if we are designing things right, which we do. Teams today are all too often feature factories. With little knowledge for if the features actually solve the underlying business problems.</p> 
       <p>Learn to focus on delivering value for business and customers. This email course will be your guide to create more valuable design work. Made for those looking to move into Strategic Design roles or those looking to add UX Strategy to their skillset.</p>

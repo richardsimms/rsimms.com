@@ -5,21 +5,17 @@ import Summary from '../components/Summary';
 import Footer from '../components/Footer';
 import Wave from '../components/Wave';
 import Link from 'gatsby-link';
-
-
 const indexPage = () => <Layout>
   <div>
-  <div>
-      <div className="Hero">
-        <div className="HeroGroup">
-          <h1>Design to deliver value</h1>
-          <h2>I <Link to="/work">design</Link>, <a href="https://medium.com/value-based-design/value-is-the-reuleaux-triangle-of-design-thinking-87e4a388e5a4">write about</a>, and <Link to="/contact">speak on</Link> creating valuable products for mobile apps, and responsive websites.</h2>
-          <div className="Logos"></div>
-        <Wave />
-        </div>
+    <div className="Hero">
+      <div className="HeroGroup">
+        <h1>Design to deliver value</h1>
+        <h2>I <Link to="/work">design</Link>, <a href="https://medium.com/value-based-design/value-is-the-reuleaux-triangle-of-design-thinking-87e4a388e5a4">write about</a>, and <Link to="/contact">speak on</Link> creating valuable products for mobile apps, and responsive websites.</h2>
+        <div className="Logos"></div>
+      <Wave />
       </div>
     </div>
-    <div className="ContentGroup">      
+    <div className="ContentGroup ContentTop">      
       <h3>Making products come alive</h3>
       <p>Helping companies deliver real value across product design and development, by knowing that they are investing in designing right things. I work with teams, to understand the features that go into the products and make sure they actually solve the underlying customer and business problems. I guide teams to create more valuable design work through strategic design and lean UX practice.</p> 
     </div>

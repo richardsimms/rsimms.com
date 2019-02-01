@@ -122,6 +122,9 @@ body {
   .ContentGroup {
     padding: 50px 20px;
   }
+  .ContentGroup.ContentTop {
+    padding: 0 20px;
+  }
   .ContentGroup h2 {
     font-size:20px;
   }

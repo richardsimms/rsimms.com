@@ -3,7 +3,7 @@ import './Card.css'
 import Link from 'gatsby-link'
 
 const Card = props => (
-    <Link href={props.link}>
+    <Link to={props.link}>
         <div className="Card">
                 <img src={props.image} alt={props.title} />
                 <h3>{props.title}</h3>
