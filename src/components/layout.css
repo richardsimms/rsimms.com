@@ -52,7 +52,7 @@ body {
     text-decoration: none;
     font-weight: 600;
     color: white;
-    background: linear-gradient(104deg, #C6345D 0%, #EC2A61 100%);
+    background: linear-gradient(104deg, #F99EB8 0%, #FA5483 100%);
     padding: 9px 20px;
     border-radius: 20px;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
