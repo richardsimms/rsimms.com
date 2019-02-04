@@ -1,4 +1,4 @@
-# [Gatsby's default starter][1]
+# [RSIMMS Protfolio][1]
 Kick off your project with this default boilerplate. This barebones starter ships with the main Gatsby configuration files you might need. 
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters][2]._
@@ -86,7 +86,7 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website][
 -   **To dive straight into code samples head [to our documentation][12].** In particular, check out the “Guides”, API reference, and “Advanced Tutorials” sections in the sidebar.
 
 ## 💫 Deploy
-# value-based.design
+
 
 [1]:	https://next.gatsbyjs.org
 [2]:	https://next.gatsbyjs.org/docs/gatsby-starters/
