@@ -7,7 +7,8 @@ const Footer = props => (
         <div className="FooterTitleGroup">
             <p><a href="https://www.instagram.com/valuebased.design/channel/">Instagram</a></p>
             <p><Link to="/privacy">Privacy&nbsp;Policy</Link></p>
-            <p>©RSIMMS</p>
+            <p>© {new Date().getFullYear()}, Richard&nbsp;Simms
+                {` `}</p>
         </div>
     </div>
 )
