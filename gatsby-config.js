@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: 'Richard Simms',
     description: 'I design human-centered services, transforming ideas into digital products and creating unique customer experiences.',
-    keywords: 'UX, Design, Product, human-centered, UI, Strategy, value-based, service, Lean UX, App, Website, sketch, figma, prototypes, startup, '
+    keywords: 'UX, Design, Product, human-centered, UI, Strategy, value-based, service, Lean UX, App, Website, sketch, figma, prototypes, startup, ',
+    siteUrl: `https://www.rsimms.com`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
