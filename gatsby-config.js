@@ -9,6 +9,15 @@ module.exports = {
     `gatsby-transformer-sharp`, 
     `gatsby-plugin-sharp`,
     'gatsby-plugin-favicon',
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.rsimms.com',
+        sitemap: 'https://www.rsimms.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
