@@ -30,8 +30,8 @@ const vauleBasedDesignPage = () => <Layout>
       <p>Learn to focus on delivering value for business and customers. This email course will be your guide to create more valuable design work. Made for those looking to move into Strategic Design roles or those looking to add UX Strategy to their skillset.</p>
     </div>
     <div className="ImageBlock">
-      <img className="Image" src={require('../images/img-square.png')} alt="Mobile shopping concepts" />
-      <img className="Image" src={require('../images/img-portrait.png')} alt="E Commerce Overview screen" />
+      <img className="Image" src={require('../images/img-square.jpg')} alt="Mobile shopping concepts" />
+      <img className="Image" src={require('../images/img-portrait.jpg')} alt="E Commerce Overview screen" />
     </div>
     <div className="ContentGroup">      
       <h3>Digital products</h3>
@@ -44,8 +44,8 @@ const vauleBasedDesignPage = () => <Layout>
       <p><em>This course aims to solve these questions. Cut through the Random feature list with something valuable. From oh no! To fuck yeah!</em></p>
     </div>
     <div className="ImageOverlap">
-    <imageoverlap><img className="Image" src={require('../images/img-large.png')} alt="Illustration of a lady sitting on a phone" /></imageoverlap>
-    <imageoverlap><img className="Image" src={require('../images/img-small.png')} alt="Illustration of collaboration" /></imageoverlap>
+    <imageoverlap><img className="Image" src={require('../images/img-large.jpg')} alt="Illustration of a lady sitting on a phone" /></imageoverlap>
+    <imageoverlap><img className="Image" src={require('../images/img-small.jpg')} alt="Illustration of collaboration" /></imageoverlap>
     </div>
     <div className="ContentGroup">      
       <h3>Add value to your design process</h3>
