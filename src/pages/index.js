@@ -25,7 +25,7 @@ const indexPage = () => <Layout>
     </div>
     <div className="ContentGroup">      
       <h3>Hello, nice to meet you.</h3>
-      <p>I’m Richard Simms, a Design Lead/Manager. Over the last 15 years, I have designed and developed projects in the digital space, pretty much anything that has a screen. I’ve had the pleasure to work with globally respected brands. Designing human-centered services, transforming ideas into digital products and creating unique customer experiences.</p>
+      <p>I’m Richard Simms, a Design Lead. Over the last 15 years, I have designed and developed projects in the digital space, pretty much anything that has a screen. I’ve had the pleasure to work with globally respected brands. Designing human-centered services, transforming ideas into digital products and creating unique customer experiences.</p>
     </div>
     <div className="ImageBlock">
       <img className="Image" src={require('../images/img-square-mastercard.jpg')} alt="Collection of Mastercard App screens" />
