@@ -1,10 +1,8 @@
 import React from 'react';
 import Layout from '../components/layout';
 import Card from '../components/Card';
-
 import Footer from '../components/Footer';
 
-import Link from 'gatsby-link';
 const indexPage = () => <Layout>
   <div>
     <div className="BannerMastercard">
