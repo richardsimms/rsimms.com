@@ -6,11 +6,10 @@ module.exports = {
     siteUrl: `https://www.rsimms.com`,
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
-    `gatsby-transformer-sharp`, 
-    `gatsby-plugin-sharp`,
+    'gatsby-plugin-react-helmet', 
     'gatsby-plugin-favicon',
     `gatsby-plugin-sitemap`,
+    `gatsby-transformer-remark`,
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
@@ -24,6 +23,27 @@ module.exports = {
       options: {
         trackingId: "UA-56512737-4",
         respectDNT: true,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/assets`,
+        name: `assets`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/blog`,
+        name: `blog`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-hotjar`,
+      options: {
+        id: 295758,
+        sv: 6
       },
     },
   ],

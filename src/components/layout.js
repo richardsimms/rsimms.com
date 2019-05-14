@@ -14,6 +14,7 @@ const Layout = ({ children, data }) => (
 
       <link rel="canonical" href="https://rsimms.com" />
       <html lang="en" />
+
     </Helmet>
     <Header />
       {children}

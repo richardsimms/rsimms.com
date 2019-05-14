@@ -5,6 +5,7 @@ import Summary from '../components/Summary';
 import Footer from '../components/Footer';
 import Wave from '../components/Wave';
 import Link from 'gatsby-link';
+
 const indexPage = () => <Layout>
   <div>
     <div className="Hero">
