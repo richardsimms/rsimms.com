@@ -28,7 +28,7 @@ const indexPage = () => <Layout>
       <p>They fail to define success, or they don't know how the outcomes are routed back to their business goals. I work to a  process that draws on years of experience to make value-based design decisions. </p>
     </div>
     <div className="ImageBlock">
-      <img className="Image" src={require('../images/img-square-mastercard.jpg')} alt="Collection of Mastercard App screens" />
+      <img className="Image" fluid={require('../images/img-square-mastercard.jpg')} alt="Collection of Mastercard App screens" />
       <img className="Image" src={require('../images/img-portrait-mastercard.jpg')} alt="Single Mastercard screen" />
     </div>
     <div className="ContentGroup">      

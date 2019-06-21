@@ -6,6 +6,15 @@ module.exports = {
     siteUrl: `https://www.rsimms.com`,
   },
   plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `src/images`,
+      },
+    },
+    `gatsby-transformer-sharp`, 
+    `gatsby-plugin-sharp`,
     'gatsby-plugin-react-helmet', 
     'gatsby-plugin-favicon',
     `gatsby-plugin-sitemap`,
