@@ -10,40 +10,41 @@ const indexPage = () => <Layout>
   <div>
     <div className="Hero">
       <div className="HeroGroup">
-        <h1>Design to deliver value</h1>
-        <h2>I <Link to="/work">design</Link>, <a href="https://medium.com/value-based-design/value-is-the-reuleaux-triangle-of-design-thinking-87e4a388e5a4">write about</a>, and <a href="https://www.slideshare.net/RichardSimms2/value-baseddesign">speak on</a> creating valuable products for mobile apps, and responsive websites.</h2>
-        <div className="Logos"></div>
+        <h1>Using research to define strategies that delivers business growth</h1>
       <Wave />
       </div>
     </div>
     <div className="ContentGroup ContentTop">      
-      <h3>Making products come alive</h3>
-      <p>Helping companies deliver real value across product design and development, by knowing that they are investing in designing right things. I work with teams, to understand the features that go into the products and make sure they actually solve the underlying customer and business problems. I guide teams to create more valuable design work through strategic design and lean UX practice.</p> 
+      <h3>Listening to your customers is good business</h3>
+      <p>We help businesses of all sizes to optimise their digital strategy, create and capture measurable outcomes by researching what their customers really want.</p>
+       <p>We’ve learned that most digital businesses have little knowledge of what features actually solve the underlying business outcomes. So, we created a reliable way for businesses to get started: by thinking about customers’ behaviour, responding to their needs, generating opportunities and fixing any experience issues.</p>
     </div>
     <div className="ImageOverlap">
       <imageoverlap><img className="Image" src={require('../images/img-large-suncorp.jpg')} alt="Three screens from the Suncorp App" /></imageoverlap>
       <imageoverlap><img className="Image" src={require('../images/img-small-appmap.jpg')} alt="Appmap of Suncorp App" /></imageoverlap>
     </div>
     <div className="ContentGroup">      
-      <h3>Hello, nice to meet you.</h3>
-      <p>I’m Richard Simms, a Design Lead. Over the last 15 years, I have designed and developed projects in the digital space, pretty much anything that has a screen. I’ve had the pleasure to work with globally respected brands. Designing human-centered services, transforming ideas into digital products and creating unique customer experiences.</p>
+      <h3>Most businesses get feature development wrong.</h3>
+      <p>They fail to define success, or they don't know how the outcomes are routed back to their business goals. Our process draws on years of our experience to make value-based design decisions. </p>
     </div>
     <div className="ImageBlock">
       <img className="Image" src={require('../images/img-square-mastercard.jpg')} alt="Collection of Mastercard App screens" />
       <img className="Image" src={require('../images/img-portrait-mastercard.jpg')} alt="Single Mastercard screen" />
     </div>
     <div className="ContentGroup">      
-      <h3>I believe</h3>
-      <p>I help businesses through what the project means for them and their business. To create magic moments, that connects customers with the product or service to help them achieve an experience they desire. By running experiments to generate learnings to improve the product.</p>
-      <p><em>Cutting through the random feature list with something valuable. From oh no! To fuck yeah!</em></p>
+      <h3>What’s new</h3>
+      <ul>
+        <li>We have a new <Link to="/work">portfolio</Link> of work</li>
+        <li>I wrote about <a href="https://medium.com/value-based-design/value-is-the-reuleaux-triangle-of-design-thinking-87e4a388e5a4">Value-Based Design</a>, to show how to deliver value and how you can increase your confidence in making the right product decisions</li>
+      </ul>
     </div>
     <div className="ImageOverlap">
       <imageoverlap><img className="Image" src={require('../images/img-large-et.jpg')} alt="Collection of components" /></imageoverlap>
       <imageoverlap><img className="Image" src={require('../images/img-small-et.jpg')} alt="Close up of single component in iPad" /></imageoverlap>
     </div>
     <Summary 
-      title="Who I love to work with"
-      text1="For me, it’s important to be sector agnostic. I work with businesses of all scales, from start-ups raising their first funding to global household names. To uncover new opportunities to create a new and unique experience that create value."
+      title="&#128075; Hello, nice to meet you!"
+      text1="Richard Simms is a designer from London, UK living in Melbourne, Australia. Over the last 15 years, I have designed and developed projects in the digital space, pretty much anything that has a screen. I’ve had the pleasure to work with globally respected brands. In his spare time, he cycles, travels, cooks and is a proud father."
     />
     <div className="Cards">
      <h2>What I've made</h2>
