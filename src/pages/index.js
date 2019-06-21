@@ -16,8 +16,8 @@ const indexPage = () => <Layout>
     </div>
     <div className="ContentGroup ContentTop">      
       <h3>Listening to your customers is good business</h3>
-      <p>We help businesses of all sizes to optimise their digital strategy, create and capture measurable outcomes by researching what their customers really want.</p>
-       <p>We’ve learned that most digital businesses have little knowledge of what features actually solve the underlying business outcomes. So, we created a reliable way for businesses to get started: by thinking about customers’ behaviour, responding to their needs, generating opportunities and fixing any experience issues.</p>
+      <p>I help businesses of all sizes to optimise their digital strategy, create and capture measurable outcomes by researching what their customers really want.</p>
+       <p>I’ve learned that most digital businesses have little knowledge of what features actually solve the underlying business outcomes. So, I've created a reliable way for businesses to get started: by thinking about customers’ behaviour, responding to their needs, generating opportunities and fixing any experience issues.</p>
     </div>
     <div className="ImageOverlap">
       <imageoverlap><img className="Image" src={require('../images/img-large-suncorp.jpg')} alt="Three screens from the Suncorp App" /></imageoverlap>
@@ -25,7 +25,7 @@ const indexPage = () => <Layout>
     </div>
     <div className="ContentGroup">      
       <h3>Most businesses get feature development wrong.</h3>
-      <p>They fail to define success, or they don't know how the outcomes are routed back to their business goals. Our process draws on years of our experience to make value-based design decisions. </p>
+      <p>They fail to define success, or they don't know how the outcomes are routed back to their business goals. I work to a  process that draws on years of experience to make value-based design decisions. </p>
     </div>
     <div className="ImageBlock">
       <img className="Image" src={require('../images/img-square-mastercard.jpg')} alt="Collection of Mastercard App screens" />
@@ -34,8 +34,8 @@ const indexPage = () => <Layout>
     <div className="ContentGroup">      
       <h3>What’s new</h3>
       <ul>
-        <li>We have a new <Link to="/work">portfolio</Link> of work</li>
-        <li>I wrote about <a href="https://medium.com/value-based-design/value-is-the-reuleaux-triangle-of-design-thinking-87e4a388e5a4">Value-Based Design</a>, to show how to deliver value and how you can increase your confidence in making the right product decisions</li>
+        <li>I have a new <Link to="/work">portfolio</Link> of work</li>
+        <li>I wrote about <a href="https://medium.com/value-based-design/value-is-the-reuleaux-triangle-of-design-thinking-87e4a388e5a4">Value-based d esign</a>, to show how to deliver value and how you can increase your confidence in making the right product decisions</li>
       </ul>
     </div>
     <div className="ImageOverlap">
