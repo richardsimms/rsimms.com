@@ -7,7 +7,7 @@ const indexPage = () => <Layout>
   <div>
     <div className="BannerMastercard">
       <div className="SectionTitleGroup">
-        <div className="SectionTitle"><h3>Mastercard</h3></div>
+        <div className="SectionTitle"><h3>Showcase</h3></div>
       </div>
     </div>
     <div className="Cards">
