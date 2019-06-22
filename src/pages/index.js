@@ -11,6 +11,7 @@ const indexPage = () => <Layout>
     <div className="Hero">
       <div className="HeroGroup">
         <h1>Using research to define strategies that delivers business growth</h1>
+        <logo></logo>
       <Wave />
       </div>
     </div>
