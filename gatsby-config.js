@@ -9,8 +9,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
         path: `${__dirname}/src/images/`,
+        name: `images`,
       },
     },
     `gatsby-transformer-sharp`, 
@@ -55,5 +55,13 @@ module.exports = {
         sv: 6
       },
     },
+    {
+      resolve: "gatsby-plugin-hubspot",
+      options: {
+          trackingCode: "6214193",
+          respectDNT: true,
+          productionOnly: true,
+      },
+    },
   ],
-}
+};

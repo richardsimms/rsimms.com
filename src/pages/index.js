@@ -5,6 +5,8 @@ import Summary from '../components/Summary';
 import Footer from '../components/Footer';
 import Wave from '../components/Wave';
 import Link from 'gatsby-link';
+import { graphql } from 'gatsby';
+
 
 const indexPage = () => <Layout>
   <div>
@@ -80,3 +82,15 @@ const indexPage = () => <Layout>
   </div>
 </Layout>
 export default indexPage
+
+export const pageQuery = graphql`
+  query {
+    imageOne: file(relativePath: { eq: "img-large-suncorp.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
