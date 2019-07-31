@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 import Wave from '../components/Wave';
 import Link from 'gatsby-link';
 import { graphql } from 'gatsby';
-
+import Img from 'gatsby-image';
 
 const indexPage = () => <Layout>
   <div>
