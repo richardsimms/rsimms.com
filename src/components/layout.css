@@ -242,12 +242,14 @@ body {
   
 }
 imageoverlap:nth-child(1) { 
+  width: 100%;
   grid-column: 1 / 4; 
   grid-row: 1; 
     /* autoprefixer: off */
   z-index: -1; 
 }
 imageoverlap:nth-child(2) { 
+  width:100%;
   grid-column: 3 / 5; 
   grid-row: 1; 
     /* autoprefixer: off */
