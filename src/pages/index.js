@@ -12,13 +12,13 @@ const indexPage = ({ data }) => <Layout>
   <div>
     <div className="Hero">
       <div className="HeroGroup">
-        <h1>Using research to define strategies that delivers business growth</h1>
+        <h1>Richard Simms is a designer of interfaces living in Melbourne</h1>
         <logo></logo>
       <Wave />
       </div>
     </div>
     <div className="ContentGroup ContentTop">
-      <h3>Listening to your customers is good business</h3>
+      <h3>Using research to define strategies that delivers business growth</h3>
       <p>I help businesses of all sizes to optimise their digital strategy, create and capture measurable outcomes by researching what their customers really want.</p>
        <p>I’ve learned that most digital businesses have little knowledge of what features actually solve the underlying business outcomes. So, I've created a reliable way for businesses to get started: by thinking about customers’ behaviour, responding to their needs, generating opportunities and fixing any experience issues.</p>
     </div>
@@ -102,7 +102,7 @@ query {
   }
   image3: file(relativePath: { eq: "img-square-mastercard.jpg" }) {
     childImageSharp {
-      fluid {
+      fluid(maxWidth: 1000) {
         ...GatsbyImageSharpFluid
       }
     }
