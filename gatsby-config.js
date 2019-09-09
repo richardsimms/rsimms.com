@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Richard Simms',
-    description: 'I’m a user experience and interaction design expert in Melbourne I’m focused on optimisations and value-based design practices for eCommerce.',
+    description: 'Richard Simms is a user experience and interaction design expert in Melbourne. He is focused on optimisations and value-based design practices for eCommerce.',
     keywords: 'UX, Design, Product, human-centered, UI, Strategy, value-based, service, Lean UX, App, Website, sketch, figma, prototypes, startup, ',
     siteUrl: `https://www.rsimms.com`,
   },
