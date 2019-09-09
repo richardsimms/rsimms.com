@@ -19,7 +19,7 @@ const indexPage = ({ data }) => <Layout>
     </div>
     <div className="ContentGroup ContentTop">
       <h3>I’m a user experience and interaction design expert in Melbourne</h3>
-      <p>I'm focused on optimisations and value-based design practices for eCommerce. With over 14 years of experience in design, I’ve had the pleasure to work with globally respected brands. I spend my spare time cycling and play footy with my son. 
+      <p>I’m focused on optimisations and value-based design practices for eCommerce. With over 14 years of experience in design, I’ve had the pleasure to work with globally respected brands. I spend my spare time cycling and play footy with my son. 
 </p>
     </div>
     <div className="ImageOverlap">
@@ -51,7 +51,7 @@ const indexPage = ({ data }) => <Layout>
       text1="Building on top of design best practices and usability research. To include hypotheses which focuses on specific business needs, measure experiments to create outcome focused data driven design solutions."
     />
     <div className="Cards">
-     <h2>What I've made</h2>
+     <h2>What I’ve made</h2>
       <div className="CardGroup">
         <Card  
           link="/suncorp"
