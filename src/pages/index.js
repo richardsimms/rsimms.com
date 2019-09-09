@@ -12,23 +12,23 @@ const indexPage = ({ data }) => <Layout>
   <div>
     <div className="Hero">
       <div className="HeroGroup">
-        <h1>Richard Simms is a designer of interfaces living in Melbourne</h1>
+        <h1>Conversion rate optimisation and value-based design practices for eCommerce.</h1>
         <logo></logo>
       <Wave />
       </div>
     </div>
     <div className="ContentGroup ContentTop">
-      <h3>Using research to define strategies that delivers business growth</h3>
-      <p>I help businesses of all sizes to optimise their digital strategy, create and capture measurable outcomes by researching what their customers really want.</p>
-       <p>I’ve learned that most digital businesses have little knowledge of what features actually solve the underlying business outcomes. So, I've created a reliable way for businesses to get started: by thinking about customers’ behaviour, responding to their needs, generating opportunities and fixing any experience issues.</p>
+      <h3>I’m a user experience and interaction design expert in Melbourne</h3>
+      <p>I'm focused on optimisations and value-based design practices for eCommerce. With over 14 years of experience in design, I’ve had the pleasure to work with globally respected brands. I spend my spare time cycling and play footy with my son. 
+</p>
     </div>
     <div className="ImageOverlap">
     <imageoverlap><Img className="Image" fluid={data.image1.childImageSharp.fluid} alt="Three screens from the Suncorp App" /></imageoverlap>
     <imageoverlap><Img className="Image" fluid={data.image2.childImageSharp.fluid} alt="Appmap of Suncorp App" /></imageoverlap>
     </div>
     <div className="ContentGroup">      
-      <h3>Most businesses get feature development wrong.</h3>
-      <p>They fail to define success, or they don't know how the outcomes are routed back to their business goals. I work to a  process that draws on years of experience to make value-based design decisions. </p>
+      <h3>I lead teams to create innovative products from conception to market</h3>
+      <p>Conducting continuous customer research and experiments. To optimise products, define strategies that delivers business growth and world class customer experiences.</p>
     </div>
     <div className="ImageBlock">
       <Img className="Image" fluid={data.image3.childImageSharp.fluid} alt="Collection of Mastercard App screens" />
@@ -37,8 +37,9 @@ const indexPage = ({ data }) => <Layout>
     <div className="ContentGroup">      
       <h3>What’s new</h3>
       <ul>
-        <li>I have a new <Link to="/work">portfolio</Link> of work</li>
-        <li>I wrote about <a href="https://medium.com/value-based-design/value-is-the-reuleaux-triangle-of-design-thinking-87e4a388e5a4">Value-based d esign</a>, to show how to deliver value and how you can increase your confidence in making the right product decisions</li>
+        <li>Supporting multiple agile teams to deliver simple, yet stunning user experiences at  <a href="https://www.open.edu.au/online-courses?view=compare">Open Universities Australia</a></li>
+        <li>I have signed up for <a href="https://hells500.com/oldirty/">Hells Ol dirty</a> and <a href="https://www.bicyclenetwork.com.au/rides-and-events/around-the-bay/routes-prices/250km-anticlockwise/">Around the bay</a> bike rides</li>
+        <li>Currently working on a <Link to="/process">value-based design</Link> sprint to help teams create compound outcome growth </li>
       </ul>
     </div>
     <div className="ImageOverlap">
@@ -46,8 +47,8 @@ const indexPage = ({ data }) => <Layout>
       <imageoverlap><Img className="Image" fluid={data.image6.childImageSharp.fluid} alt="Close up of single component in iPad" /></imageoverlap>  
     </div>
     <Summary 
-      title="&#128075; Hello, nice to meet you!"
-      text1="Richard Simms is a designer from London, UK living in Melbourne, Australia. Over the last 15 years, I have designed and developed projects in the digital space, pretty much anything that has a screen. I’ve had the pleasure to work with globally respected brands. In his spare time, he cycles, travels, cooks and is a proud father."
+      title="Value-based design"
+      text1="Building on top of design best practices and usability research. To include hypotheses which focuses on specific business needs, measure experiments to create outcome focused data driven design solutions."
     />
     <div className="Cards">
      <h2>What I've made</h2>

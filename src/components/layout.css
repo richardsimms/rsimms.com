@@ -21,7 +21,7 @@ body {
   .Hero h1 {
     margin: 0;
     color: white;
-    font-size: 60px;
+    font-size: 48px;
     line-height: 1.2;
     font-weight: 600;
     animation: HeroAnimation 3s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
