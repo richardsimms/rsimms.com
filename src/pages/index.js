@@ -12,7 +12,7 @@ const indexPage = ({ data }) => <Layout>
   <div>
     <div className="Hero">
       <div className="HeroGroup">
-        <h1>Conversion rate optimisation and value-based design practices for eCommerce.</h1>
+        <h1>Conversion rate optimisation and user experience designer for eCommerce.</h1>
         <logo></logo>
       <Wave />
       </div>
