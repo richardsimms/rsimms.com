@@ -43,6 +43,7 @@ const contactPage = () => <Layout>
             <a href="mailto:richard@rsimms.com"><p>richard@rsimms.com</p></a>
             <a href="sms://+61437116722"><p>+61 437 116 722</p></a>
             <a href="https://www.linkedin.com/in/richardsimms"><p>LinkedIn profile</p></a>
+            <a href="https://vbd.substack.com"><p>publication and newsletter</p></a>
         </info>
     </Contact>
     </div>
