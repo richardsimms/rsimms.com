@@ -12,7 +12,7 @@ const indexPage = ({ data }) => <Layout>
   <div>
     <div className="Hero">
       <div className="HeroGroup">
-        <h1>I help CEO’s and product manages create better experiences to capture more value</h1>
+        <h1>I help product teams create better experiences to capture more value</h1>
         <logo></logo>
       <Wave />
       </div>
