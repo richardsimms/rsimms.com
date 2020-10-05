@@ -1,5 +1,5 @@
 body {
-  font-family: -apple-system, raleway, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Fira, raleway, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   font-size: 20px;
   -webkit-font-smoothing: antialiased;
@@ -22,8 +22,9 @@ body {
     margin: 0;
     color: white;
     font-size: 48px;
+    font-family: 'Fira','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.2;
-    font-weight: 600;
+    font-weight: 200;
     animation: HeroAnimation 3s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
     opacity: 0;
     margin-bottom: 1em;
@@ -136,6 +137,7 @@ body {
 
 .ContentGroup h3 {
   margin: 40px 0;
+  font-family: 'Fira','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 30px;
   text-align: left;
   font-weight: 700;
