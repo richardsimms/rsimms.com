@@ -87,12 +87,6 @@ const suncorpPage = () => <Layout>
           text="UX Design"
           image={require('../images/card-et.jpg')}
           />
-        <Card  
-          link="/espn"
-          title="ESPN PL" 
-          text="AR Design"
-          image={require('../images/card-espn.jpg')}
-          />
         </div>
     </div>
     <Footer />

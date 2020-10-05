@@ -12,24 +12,30 @@ const indexPage = ({ data }) => <Layout>
   <div>
     <div className="Hero">
       <div className="HeroGroup">
+<<<<<<< HEAD
         <h1>Conversion rate optimisation and value-based design practices for eCommerce.</h1>
         <h2>Conversion rate optimisation and value-based design practices for eCommerce.</h2>
+=======
+        <h1>I help product teams create better experiences to capture more value</h1>
+>>>>>>> 3dbf456d81d764145ec852fe0693e5998786c912
         <logo></logo>
       <Wave />
       </div>
     </div>
     <div className="ContentGroup ContentTop">
-      <h3>I’m a user experience and interaction design expert in Melbourne</h3>
-      <p>I’m focused on optimisations and value-based design practices for eCommerce. With over 14 years of experience in design, I’ve had the pleasure to work with globally respected brands. I spend my spare time cycling and play footy with my son. 
-</p>
+      <h3>I’m obsessed about crafting amazing digital products</h3>
+      <p>Through design rigger, I increase confidence in assumptions to create better experiences people are willing to change their behaviour for. 
+      </p>
     </div>
     <div className="ImageOverlap">
     <imageoverlap><Img className="Image" fluid={data.image1.childImageSharp.fluid} alt="Three screens from the Suncorp App" /></imageoverlap>
     <imageoverlap><Img className="Image" fluid={data.image2.childImageSharp.fluid} alt="Appmap of Suncorp App" /></imageoverlap>
     </div>
     <div className="ContentGroup">      
-      <h3>I lead teams to create innovative products from conception to market</h3>
-      <p>Conducting continuous customer research and experiments. To optimise products, define strategies that delivers business growth and world class customer experiences.</p>
+      <h3>I’ve had the pleasure to work with globally respected brands</h3>
+      <p>Optimising products, defining experience strategy that delivers business growth and innovative products from conception to market.
+        <br />When I’m not in front of a screen, you can find me on a bike, riding through the Australian bush or at least finding my Zen on beach road.
+      </p>
     </div>
     <div className="ImageBlock">
       <Img className="Image" fluid={data.image3.childImageSharp.fluid} alt="Collection of Mastercard App screens" />
@@ -39,7 +45,7 @@ const indexPage = ({ data }) => <Layout>
       <h3>What’s new</h3>
       <ul>
         <li>Supporting multiple agile teams to deliver simple, yet stunning user experiences at  <a href="https://www.open.edu.au/online-courses?view=compare">Open Universities Australia</a></li>
-        <li>I have signed up for <a href="https://hells500.com/oldirty/">Hells Ol dirty</a> and <a href="https://www.bicyclenetwork.com.au/rides-and-events/around-the-bay/routes-prices/250km-anticlockwise/">Around the bay</a> bike rides</li>
+        <li>I recently completed <a href="https://hells500.com/oldirty/">Hells Ol dirty</a> and <a href="https://www.bicyclenetwork.com.au/rides-and-events/around-the-bay/routes-prices/250km-anticlockwise/">Around the bay</a> bike rides</li>
         <li>Currently working on a <Link to="/process">value-based design</Link> sprint to help teams create compound outcome growth </li>
       </ul>
     </div>
@@ -71,12 +77,6 @@ const indexPage = ({ data }) => <Layout>
           title="European Tour" 
           text="UX Design"
           image={require('../images/card-et.jpg')}
-          />
-        <Card  
-          link="/espn"
-          title="ESPN PL" 
-          text="AR Design"
-          image={require('../images/card-espn.jpg')}
           />
         </div>
     </div>
