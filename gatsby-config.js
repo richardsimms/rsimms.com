@@ -16,7 +16,7 @@ module.exports = {
     `gatsby-transformer-sharp`, 
     `gatsby-plugin-sharp`,
     'gatsby-plugin-react-helmet', 
-    'gatsby-plugin-favicon',
+    //'gatsby-plugin-favicon',
     `gatsby-plugin-sitemap`,
     `gatsby-transformer-remark`,
     {
@@ -33,6 +33,18 @@ module.exports = {
         trackingId: "UA-56512737-4",
         respectDNT: true,
       },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Fira Sans\:300,400,500,700`, 
+          `Fira Sans Condensed\:500`, 
+          `Roboto`, 
+          `Pacifico`
+        ],
+        
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,

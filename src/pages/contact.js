@@ -12,7 +12,7 @@ const Contact = styled.div`
     justify-items: center;
     grid-gap: 40px;
     position: relative;
-    background: #244E5F;
+    background: #1F4753;
     width: 100%;
     height: 100vh;
     padding: 10px 0;

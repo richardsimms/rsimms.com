@@ -8,18 +8,27 @@
 }
 
 .HeaderScrolled {
-    background: rgba(36, 78, 95, 0.8);
+    background: rgba(31, 71, 83, 0.8);
     padding: 15px 0;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(6px);
 }
 
 .HeaderGroup {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, auto);
     align-items: center;
     justify-items: center;
+    animation: HeroAnimation 3s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+
+}
+
+.HeaderGroup a path {
+    fill:#FCF7F5;
+}
+.HeaderScrolled .HeaderGroup a path {
+    fill: #FCF7F5;
 }
 
 .Header a {

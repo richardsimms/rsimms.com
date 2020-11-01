@@ -1,53 +1,65 @@
 body {
-  font-family: Fira, raleway, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
-  font-size: 20px;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   line-height: 1.3;
+  color: #1F4753;
+  background-color:#FCF7F5 ;
   
   }
   a {
-    color: #5334F5;
     font-weight: 600;
-    text-decoration: none;
+    text-decoration: underline;
   }
   .Hero {
-    height: 100%;
-    background: linear-gradient(180deg, #244E5F 0%, #55BBE4 100%);
+    /* height: 100%; */
+    /* background: linear-gradient(180deg, #244E5F 0%, #55BBE4 100%); */
+    background-image: url(../images/tetZUVQ.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
+    min-height: 78vh;
   }
-  .Hero h1 {
+
+  .HeroGroup span {
+    color: #580037;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+  }
+  .HeroGroup h1 {
     margin: 0;
-    color: white;
-    font-size: 48px;
-    font-family: 'Fira','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 54px;
+    font-family: 'Fira Sans', sans-serif;
     line-height: 1.2;
-    font-weight: 200;
+    font-weight: 700;
     animation: HeroAnimation 3s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
     opacity: 0;
-    margin-bottom: 1em;
+ 
   }
-  .Hero h2 {
-    color: rgba(255,255,255, 0.8);
-    font-size: 26px;
+  .HeroGroup h2 {
+    
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 21px;
     line-height: 1.5;
     font-weight: 500;
     animation: HeroAnimation 3s 0.3s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
     opacity: 0;
-    margin-top: 1em;
-    margin-bottom: 2em;
+    
+    margin-top: .5em;
+    margin-bottom: 1em;
   }
 .Hero a {
   color: white;
   text-decoration: underline;
 }
-  .Hero p {
-    color: rgba(255,255,255, 0.8);
-    font-size: 12px;
+  .HeroGroup p {
+    
+    font-size: 16px;
     line-height: 1.5;
-    font-weight: 500;
+    font-weight: 400;
   }
   .Hero p a {
     font-size: 18px;
@@ -68,13 +80,18 @@ body {
   .HeroGroup {
     max-width: 720px;
     margin: 0 auto;
-    padding: 210px 50px;
-    text-align: center;
+    padding: 60px 50px;
+    text-align: left;
   }
 
   @media (max-width: 640px) {
     .HeroGroup {
-      padding: 150px 20px;
+      padding: 0px 20px;
+    }
+    .HeroGroup h1 {
+
+      font-size: 42px;
+
     }
     .Hero h1 {
       font-size: 30px;
@@ -116,19 +133,19 @@ body {
 .ContentGroup{
   max-width: 720px;
   margin: 0 auto;
-  padding: 100px 50px;
+  padding: 60px 50px;
   text-align: left;
 }
 
 @media (max-width: 640px) {
   .ContentGroup {
-    padding: 50px 20px;
+    padding: 24px 23px;
   }
   .ContentGroup.ContentTop {
-    padding: 0 20px;
+    padding: 24px 23px;
   }
   .ContentGroup h2 {
-    font-size:20px;
+    font-size:23px;
   }
   .ContentGroup h3 {
     margin: 0;
@@ -136,30 +153,32 @@ body {
 }
 
 .ContentGroup h3 {
-  margin: 40px 0;
-  font-family: 'Fira','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 30px;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 24px;
   text-align: left;
-  font-weight: 700;
-  background: linear-gradient(104deg, #C6345D 0%, #EC2A61 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  color: #580037;
   margin-block-end: 0.5em;
+}
+.ContentGroup a {
+  color: #580037;
+
 }
 
 .ContentGroup p {
   margin-block-start: 0;
-  color: #244E5F;
-  font-size: 26px;
+  font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
   text-align: left;
 }
+.ContentGroup ul {
+  padding-left: 23px;
+}
 
 .ContentGroup li {
   margin: 18px 0;
-  color: #244E5F;
-  font-size: 26px;
+  font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
   text-align: left;
@@ -213,7 +232,7 @@ body {
   max-width: 950px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2fr 2fr;
   grid-gap: 40px;
   justify-items: center;
 }
@@ -223,6 +242,15 @@ body {
   }
 }
 
+.ImageSingle {
+  max-width: 960px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  grid-gap: 0;
+  justify-items: center;
+  align-items: end;
+}
 .ImageOverlap {
   max-width: 950px;
   margin: 0 auto;
@@ -243,6 +271,7 @@ body {
   background-size: contain;
   
 }
+
 imageoverlap:nth-child(1) { 
   width: 100%;
   grid-column: 1 / 4; 
@@ -262,6 +291,12 @@ imageoverlap:nth-child(2) {
     grid-template-columns: 1fr;
     justify-content: center;
     grid-gap: 20px;
+  }
+  .ImageSingle {
+    margin: 23px;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    grid-gap: 0px;
   }
   imageoverlap:nth-child(1) { 
     grid-row: 1 / 4; 
@@ -425,44 +460,33 @@ imageoverlap:nth-child(2) {
     margin: 50px;
 
 }
-
-.FooterGroup {
-    position: relative;
-    max-width: 960px;
-    width: 100%;
-    padding: 90px 0;
-    margin: 0 auto; 
+.FooterGroup{
+  background: #193942;
 }
-
 .FooterTitleGroup {
-    max-width: 800px;
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 3fr;
-    margin: 0 40px;
-    justify-items: end;
-
-
-    @media (max-width: 640px) {
-        grid-template-columns: 1fr 1fr auto;
-        grid-gap: 10px;
-        justify-items: center;
-        margin: 0 20px;
-    }
-  }
-
-.FooterTitleGroup p {
-    color: #333333;
-    font-size: 14px;
-    font-weight: 400;
-    margin: 0;
-    line-height: 1.2;
- 
-    @media (max-width: 640px) {
-        font-size: 12px;
-    }
+  color: #FCF7F5; 
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  text-align: left;
+}
+.FooterTitleGroup a {
+  color: #FCF7F5; 
+}
+.FooterTitleGroup h3 {
+  font-family: 'Fira Sans', sans-serif;
 }
 
+.FooterTitleGroup span {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+@media (max-width: 640px) {
+  .FooterTitleGroup {
+    padding: 24px 23px;
+  }
+}
 
 .SummaryGroup {
     background: #FAE3EA;
