@@ -534,8 +534,9 @@ form input {
   line-height: 147%;
   color: #363030;
   padding-left: 20px;
+  border-radius: 0;
 }
-form button {
+button {
   width: 330px;
   height: 60px;
   background: #1A1A1A;

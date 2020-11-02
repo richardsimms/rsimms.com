@@ -67,6 +67,13 @@ module.exports = {
         sv: 6
       },
     },
-
+/*     {
+      resolve: "gatsby-plugin-hubspot",
+      options: {
+          trackingCode: "6214193",
+          respectDNT: true,
+          productionOnly: true,
+      },
+    }, */
   ],
 };
