@@ -16,6 +16,17 @@ const indexPage = ({ data }) => <Layout>
       <span>Start designing impact, not opinions.</span>
       <h1>Design for clarity when everything is uncertain </h1>    
       <h2>A free guide to teach you how to make profitable design decisions even in these crazy times. </h2> 
+      <form name="contact" netlify>
+        <p>
+        <label class="visuallyhidden">Name<input type="text" title="name" placeholder="Your name" name="name" /></label>
+        </p>
+        <p>
+       <label class="visuallyhidden">Email</label><input type="email" placeholder="Your email" name="email" />
+      </p>
+  <p>
+    <button type="submit">SEND ME THE FREE GUIDE</button>
+  </p>
+</form>
     </div>
     
     <div className="ContentGroup ContentTop">
