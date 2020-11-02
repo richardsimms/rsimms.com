@@ -19,7 +19,7 @@ const indexPage = ({ data }) => <Layout>
       <form name="contact" method="POST" data-netlify="true">
        <p><label class="visuallyhidden">Name</label><input type="text" title="name" placeholder="Your name" name="name" /></p>
         <p><label class="visuallyhidden">Email</label><input type="email" placeholder="Your email" name="email" /></p>
-         <a href="mailto:richard@rsimms.com"><button type="submit">SEND ME THE FREE GUIDE</button></a>
+         <p><button type="submit">SEND ME THE FREE GUIDE</button></p>
       </form>
     </div>
     
