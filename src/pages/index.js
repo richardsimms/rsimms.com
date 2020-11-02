@@ -8,9 +8,7 @@ import Img from 'gatsby-image';
 const indexPage = ({ data }) => <Layout>
   <div>
     <div className="Hero">
-      <div className="HeroGroup">
-        {/* <h1>I help product teams create better experiences to capture more value</h1> */}
-        
+      <div className="HeroGroup">        
       <Wave />
       </div>
     </div>
