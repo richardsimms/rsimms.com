@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout';
 import "../components/layout.css";
+import Form from "../components/form";
 
 const form = () => ( <Layout>
      <blank></blank>
@@ -13,6 +14,7 @@ const form = () => ( <Layout>
         <p><label class="visuallyhidden">Email</label><input type="email" placeholder="Your email" name="email" /></p>
          <p><button type="submit">SEND ME THE FREE GUIDE</button></p>
       </form>
+      <Form />
     </div>
 
 

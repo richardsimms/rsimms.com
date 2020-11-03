@@ -5,6 +5,7 @@ import Wave from '../components/Wave';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
+
 const indexPage = ({ data }) => <Layout>
   <div>
     <div className="Hero">
@@ -16,6 +17,7 @@ const indexPage = ({ data }) => <Layout>
       <span>Start designing impact, not opinions.</span>
       <h1>Design for clarity when everything is uncertain </h1>    
       <h2>Make profitable design decisions even in these crazy times. </h2> 
+      
     </div>
     
     <div className="ContentGroup ContentTop">
