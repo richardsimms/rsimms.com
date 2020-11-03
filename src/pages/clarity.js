@@ -14,6 +14,10 @@ const form = () => ( <Layout>
          <p><button type="submit">SEND ME THE FREE GUIDE</button></p>
       </form>
     </div>
+
+
+
+
 </Layout>
 )
 export default form
