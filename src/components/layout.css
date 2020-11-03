@@ -130,6 +130,13 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+.ContentBackground {
+  background-color:#FCE8E8;
+  margin-top: -300px;
+  margin-bottom: -200px;
+  padding-top: 300px;
+  padding-bottom: 200px;
+}
 .ContentGroup{
   max-width: 720px;
   margin: 0 auto;

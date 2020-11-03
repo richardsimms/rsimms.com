@@ -29,13 +29,15 @@ const indexPage = ({ data }) => <Layout>
     <Img className="Image" fluid={data.image1.childImageSharp.fluid} alt="Three screens from the Suncorp App" />
    
     </div>
-    <div className="ContentGroup">      
-      <h3>Supporting our healthcare heroes </h3>
-      <ul>
-        <li>Rona Scrubs is a not for profit charity, established on 1 April 2020 in response to the COVID-19 pandemic reaching Australia’s shores and feedback from healthcare workers that they were unable to obtain scrubs to help them prevent the spread of COVID-19.</li>
-        <li>We finished up making over 6,500 free scrubs for healthcare workers across Australia with the help of over 3,000 volunteers and generous donors.</li>
-      </ul>
-    </div>
+    <div className="ContentBackground">
+      <div className="ContentGroup">     
+        <h3>Supporting our healthcare heroes </h3>
+        <ul>
+          <li>Rona Scrubs is a not for profit charity, established on 1 April 2020 in response to the COVID-19 pandemic reaching Australia’s shores and feedback from healthcare workers that they were unable to obtain scrubs to help them prevent the spread of COVID-19.</li>
+          <li>We finished up making over 6,500 free scrubs for healthcare workers across Australia with the help of over 3,000 volunteers and generous donors.</li>
+        </ul>
+      </div>
+    </div> 
     <div className="ImageBlock">
       <img className="Image" src={require('../images/img-square.jpg')} alt="Initial concepts" />
       <img className="Image" src={require('../images/img-nurse.jpg')} alt="Final overview screen" />
