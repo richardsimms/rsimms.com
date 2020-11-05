@@ -14,7 +14,7 @@ export default function Feedback() {
     e.preventDefault()
     try {
       const response = await fetch(
-        "<https://api.airtable.com/v0/appuYmrFfNQCuYBpm/Feedback?api_key=key0x4JFSDM9QeO6o",
+        "https://v1.nocodeapi.com/richardsimms/airtable/TfknTYLIZdcbVDGW",
         {
           method: "post",
           body: JSON.stringify([formData]),
