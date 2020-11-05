@@ -14,7 +14,7 @@ export default function Newsletter() {
     e.preventDefault()
     try {
       const response = await fetch(
-        "https://v1.nocodeapi.com/richardsimms/airtable/TfknTYLIZdcbVDGW",
+        "https://v1.nocodeapi.com/richardsimms/airtable/TfknTYLIZdcbVDGW?tableName=newsletter",
         {
           method: "post",
           body: JSON.stringify([formData]),

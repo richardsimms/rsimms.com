@@ -14,7 +14,7 @@ export default function Contact() {
     e.preventDefault()
     try {
       const response = await fetch(
-        "https://v1.nocodeapi.com/richardsimms/airtable/TfknTYLIZdcbVDGW",
+        "https://v1.nocodeapi.com/richardsimms/airtable/TfknTYLIZdcbVDGW?tableName=contact",
         {
           method: "post",
           body: JSON.stringify([formData]),
