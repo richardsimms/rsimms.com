@@ -39,6 +39,7 @@ body {
     opacity: 0;
  
   }
+
   .HeroGroup h2 {
     
     font-family: 'Fira Sans', sans-serif;
@@ -91,6 +92,7 @@ body {
     .HeroGroup h1 {
 
       font-size: 42px;
+      line-height: 50px;
 
     }
     .Hero h1 {
@@ -162,6 +164,7 @@ body {
 .ContentGroup h3 {
   font-family: 'Fira Sans', sans-serif;
   font-size: 24px;
+  line-height: 32px;
   text-align: left;
   font-weight: 800;
   color: #580037;
