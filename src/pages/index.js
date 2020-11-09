@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import Wave from '../components/Wave';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
-
+import Form from "../components/form";
 
 const indexPage = ({ data }) => <Layout>
   <div>
@@ -17,7 +17,7 @@ const indexPage = ({ data }) => <Layout>
       <span>Start designing impact, not opinions.</span>
       <h1>Design for clarity when everything is uncertain </h1>    
       <h2>Make profitable design decisions even in these crazy times. </h2> 
-      
+      <Form />
     </div>
     
     <div className="ContentGroup ContentTop">
