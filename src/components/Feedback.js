@@ -39,6 +39,8 @@ export default function Feedback() {
         id="contact"
         name="contact"
         onSubmit={sendData}
+        action="/success"
+
       >
         <input
           name="email"

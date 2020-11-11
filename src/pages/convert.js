@@ -7,10 +7,11 @@ import Layout from '../components/layout';
 
 
 const form = () => ( <Layout>
-    <Form />
+     <Form />
     <Feedback />
     <Newsletter />
-    <Contact />
+    <Contact /> 
+
 </Layout>
 )
 export default form

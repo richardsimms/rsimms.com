@@ -40,6 +40,8 @@ export default function Contact() {
         name="contact"
         required
         onSubmit={sendData}
+        action="/success"
+
       >
         <input
           name="name" // name should matched with your airtable table field

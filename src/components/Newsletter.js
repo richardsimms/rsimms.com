@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import "../components/layout.css";
 
 export default function Newsletter() {
   const [formData, setFormData] = useState({})
@@ -32,13 +33,17 @@ export default function Newsletter() {
     }
   }
 
+
+  
   return (
-    <div className="App">
+    <div className="HeroGroup">
       <form
         className="input-form"
         id="contact"
         name="contact"
         onSubmit={sendData}
+        method="post" 
+        action="/success"
       >
         <input
           name="email"
@@ -47,6 +52,7 @@ export default function Newsletter() {
           onChange={handleInput}
         />
         <input name="submit" type="submit" value="Send" />
+        
         {message}
       </form>
     </div>
