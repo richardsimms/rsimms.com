@@ -16,7 +16,7 @@ const form = () => ( <Layout>
       </form> 
       
       <hr />
-      <form name="contact-new" method="POST" data-netlify="true">
+      <form name="contact-new" method="POST" data-netlify="true" action="/success" >
       <p>
         <label>Your Name: <input type="text" name="name" /></label>   
       </p>
@@ -28,9 +28,6 @@ const form = () => ( <Layout>
           <option value="leader">Leader</option>
           <option value="follower">Follower</option>
         </select></label>
-      </p>
-      <p>
-        <label>Message: <textarea name="message"></textarea></label>
       </p>
       <p>
         <button type="submit">Send</button>
