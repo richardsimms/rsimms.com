@@ -14,13 +14,16 @@ const form = () => ( <Layout>
          <p><button type="submit">SEND ME THE FREE GUIDE</button></p>
       </form>  */}
 
-      <form name="newsletter" method="POST" netlify="true" action="/success">
+      <form name="Newsletter" method="POST" netlify="true" action="/">
+        <input type="hidden" name="form-name" value="Newsletter" />
         <p><label>Your Name: <input type="text" name="name" /></label></p>
         <p><label>Your Email: <input type="email" name="email" /></label></p>
         <p><button type="submit">Send</button></p>
       </form>
     </div>
 
+
+    
 </Layout>
 )
 export default form
