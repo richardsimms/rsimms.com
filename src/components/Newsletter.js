@@ -44,7 +44,7 @@ export default function Newsletter() {
         onSubmit={sendData}
         method="post" 
         action="/success"
-        netlify="true"
+        
       >
         <input
           name="email"
