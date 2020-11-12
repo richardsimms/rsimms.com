@@ -40,10 +40,11 @@ export default function Newsletter() {
       <form
         className="input-form"
         id="contact"
-        name="contact"
+        name="newsletter"
         onSubmit={sendData}
         method="post" 
         action="/success"
+        netlify="true"
       >
         <input
           name="email"

@@ -5,7 +5,7 @@ import "./layout.css";
 
 
 
-const Layout = ({ children, data }) => (
+const Layout = ({ children }) => (
   <div>
     <Helmet>
       <meta charSet="utf-8" />

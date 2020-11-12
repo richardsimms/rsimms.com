@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from '../components/layout';
-import "../components/layout.css";
 
 
 const form = () => ( <Layout>
@@ -16,17 +15,11 @@ const form = () => ( <Layout>
       </form> 
       
       <hr />
-      <form name="contact-new" method="post" netlify="true" action="/success">
-      <p>
-        <label>Your Name: <input type="text" name="name" /></label>   
-      </p>
-      <p>
-        <label>Your Email: <input type="email" name="email" /></label>
-      </p>
-      <p>
-        <button type="submit">Send</button>
-      </p>
-    </form>
+      <form name="newsletter" method="POST" netlify="true" action="/success">
+        <p><label>Your Name: <input type="text" name="name" /></label></p>
+        <p><label>Your Email: <input type="email" name="email" /></label></p>
+        <p><button type="submit">Send</button></p>
+      </form>
     </div>
 
     
