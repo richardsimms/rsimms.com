@@ -1,19 +1,14 @@
 import React from "react";
 import "../components/layout.css";
-import ConvertKitForm from "convertkit-react";
-
 
 export default function App() {
-    const config = {
-        formId: 1788766,
-        
-        emailPlaceholder: 'Enter your email address',
-        namePlaceholder: 'Your first name',
-        submitText: 'SEND ME THE FREE GUIDE',
-      }
+
   return (
-    <div >
-      <ConvertKitForm {...config}/>
-    </div>
+    <form name="Newsletter" method="POST" netlify="true" action="/success">
+        <input type="hidden" name="form-name" value="Newsletter" />
+        <p><label class="visuallyhidden">Your Name: <input type="text" name="name" placeholder="Your name" /></label></p>
+        <p><label>What’s your best email address? <input type="email" name="email" placeholder="Your email" /></label></p>
+        <p><button type="submit">SEND ME THE FREE GUIDE</button></p>
+      </form>
   );
 }
