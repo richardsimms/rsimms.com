@@ -162,7 +162,15 @@ body {
     margin: 0;
   }
 }
-
+.ContentGroup h1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: left;
+    font-weight: 800;
+    color: #580037;
+    margin-block-end: 0.5em;
+}
 .ContentGroup h3 {
   font-family: 'Fira Sans', sans-serif;
   font-size: 24px;
@@ -395,6 +403,14 @@ imageoverlap:nth-child(2) {
   align-items: start;
   justify-items: center;
   animation: BounceAnimation 3s .3s forwards cubic-bezier(0.1, 0.8, 1, 1);
+}
+.BannerThanks h3{
+    color: #FCF7F5;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 50px;
+    font-family: 'Fira Sans', sans-serif;
+
 }
 .BannerSuncorp{
   background-image: url("../images/hero-suncorp.jpg");
