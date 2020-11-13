@@ -384,6 +384,18 @@ imageoverlap:nth-child(2) {
     justify-items: center;
     animation: BounceAnimation 3s .3s forwards cubic-bezier(0.1, 0.8, 1, 1);
 }
+.BannerThanks{
+  background-image: url("../images/hero-thanks.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%; 
+  position: relative;
+  align-items: start;
+  justify-items: center;
+  animation: BounceAnimation 3s .3s forwards cubic-bezier(0.1, 0.8, 1, 1);
+}
 .BannerSuncorp{
   background-image: url("../images/hero-suncorp.jpg");
   background-repeat: no-repeat;
