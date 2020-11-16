@@ -28,10 +28,7 @@ const ronascrubsPage = () => <Layout>
       <imageoverlap><img className="Image" src={require('../images/img-nurse.jpg')} alt="Collection of Mastercard screens" /></imageoverlap>
       <imageoverlap><img className="Image" src={require('../images/img-square.jpg')} alt="Appmap of Mastercard app" /></imageoverlap>
     </div>
-    <div className="ContentGroup">      
-      <p>We delivered a high-fidelity, interactive, clickable prototype or customers to access via their smartphones. Featuring 48 demo screens which could be used in a free flow manner via our hidden, built-in menu system to start each journey.</p>
-      <p>We created bespoke a micro-interaction pattern system featuring ‘confirmation button behaviour’ to give customers a strong feeling of completion.</p>
-     
+    <div className="ContentGroup">           
       <p>The core team behind Rona Scrubs was made up of Annabelle the founder, Kate Marketing Lead, Charlotte Healthcare lead, Nicola Operations lead and myself Customer experience lead. I was responsible for making the react website that allowed Healthcare to register their need of scrubs and volunteers the ability to sign up. After they registered on the site they receive our automated and campaign email journeys to know what was required in their local suburb across Australia.</p>
       <p>Once established, I lead the recruitment of Archangel distributors who were the pivotal connections between the volunteers and the healthcare workers. I went on to manage these distributors across Queensland, South Australia and Victoria.</p>
     
