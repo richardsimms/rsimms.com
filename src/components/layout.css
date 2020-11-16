@@ -50,7 +50,6 @@ body {
     font-weight: 500;
     animation: HeroAnimation 3s 0.3s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
     opacity: 0;
-    
     margin-top: .5em;
     margin-bottom: 1em;
   }
@@ -179,6 +178,7 @@ body {
   font-weight: 800;
   color: #580037;
   margin-block-end: 0.5em;
+  margin-top: 32px;
 }
 .ContentGroup a {
   color: #580037;
@@ -212,9 +212,23 @@ body {
   text-align: left;
 }
 
+.quote {
+  font-family: "Merriweather";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 24px !important;
+  line-height: 150%;
+  color: #1A1A1A;
+  border-color:#61BDA7;
+  border-width: 0.4rem;
+  border-left-style: solid !important;
+  padding-left: 16px !important;
+  margin-top: 32px  !important;
+}
+
 .Cards h2 {
   margin: 50px 20px;
-  font-size: 60px;
+  font-size: 32px;
   text-align: center;
   font-weight: 700;
   background: linear-gradient(104deg, #C6345D 0%, #EC2A61 100%);
@@ -412,6 +426,18 @@ imageoverlap:nth-child(2) {
     font-family: 'Fira Sans', sans-serif;
 
 }
+.BannerRonaScrubs{
+  background-image: url("../images/hero-ronascrubs.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%; 
+  position: relative;
+  align-items: start;
+  justify-items: center;
+  animation: BounceAnimation 3s .3s forwards cubic-bezier(0.1, 0.8, 1, 1);
+}
 .BannerSuncorp{
   background-image: url("../images/hero-suncorp.jpg");
   background-repeat: no-repeat;
@@ -538,13 +564,12 @@ imageoverlap:nth-child(2) {
     position: relative;
     align-items: center;
     justify-items: center;
-    top: -50px;
     z-index: -2;
 }
 
 .SummaryTitleGroup {
     max-width: 720px;
-    margin: 100px 40px 20px;
+    margin: 60px 20px;
     display: grid;
     grid-gap: 20px;
     grid-template-rows: auto ;
@@ -552,15 +577,18 @@ imageoverlap:nth-child(2) {
 }
 .SummaryTitleGroup h3 {
     color: #C6345D;
-    font-size: 30px;
+    font-size: 24px;
     margin: 0;
     line-height: 1.2;
 }
 
 .SummaryTitleGroup p {
     color: #244E5F;
-    font-size: 26px;
-    line-height: 1.3;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
     margin: 0;
 }
 

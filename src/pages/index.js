@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import Footer from '../components/Footer';
 import Wave from '../components/Wave';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
 import Form from "../components/form";
 
@@ -30,21 +30,21 @@ const indexPage = ({ data }) => <Layout>
       </ul>
     </div>
     <div className="ImageSingle">
-    <Img className="Image" fluid={data.image1.childImageSharp.fluid} alt="Three screens from the Suncorp App" />
+    <Img className="Image" fluid={data.image1.childImageSharp.fluid} alt="Image of watering a plant and a phone on a table" />
    
     </div>
     <div className="ContentBackground">
       <div className="ContentGroup">     
         <h3>Supporting our healthcare heroes </h3>
         <ul>
-          <li>Rona Scrubs is a not for profit charity, established on 1 April 2020 in response to the COVID-19 pandemic reaching Australia’s shores and feedback from healthcare workers that they were unable to obtain scrubs to help them prevent the spread of COVID-19.</li>
+          <li><Link to="/ronascrubs">I helped a not for profit charity</Link> provide scrubs (uniforms) for healthcare heroes in response to COVID-19. By creating a website that matched local volunteers with healthcare workers who needed scrubs.</li>
           <li>We finished up making over 6,500 free scrubs for healthcare workers across Australia with the help of over 3,000 volunteers and generous donors.</li>
         </ul>
       </div>
     </div> 
     <div className="ImageBlock">
-      <img className="Image" src={require('../images/img-square.jpg')} alt="Initial concepts" />
-      <img className="Image" src={require('../images/img-nurse.jpg')} alt="Final overview screen" />
+      <img className="Image" src={require('../images/img-square.jpg')} alt="Voluntee cutting fabric from a pattern" />
+      <img className="Image" src={require('../images/img-nurse.jpg')} alt="Halthcare workers wearing scrubs" />
     </div>
     {/* <div className="ContentGroup">      
       <h3>Read <a href="http://vbd.substack.com">Find clarity in uncertainty</a>.</h3>
