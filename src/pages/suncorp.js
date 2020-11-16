@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from '../components/layout';
-import Card from '../components/Card';
 import Footer from '../components/Footer';
 import ReactPlayer from 'react-player';
 import Summary from '../components/Summary';
@@ -66,29 +65,6 @@ const suncorpPage = () => <Layout>
       text2="Self-serves across Car, Home and Life Insurance, from updating address, pay renewals and new quotes. Make a claim and to be able to track the entire process from start to finish."
       text3="Suncorp App’s also has a Virtual Assistant chatbot powered by Microsoft Watson to answer questions about specific bank accounts and insurance policies."
     />
-    <div className="Cards">
-    <h2>What I've made</h2>
-      <div className="CardGroup">
-        <Card  
-          link="/suncorp"
-          title="Suncorp App" 
-          text="UX Design & Strategy"
-          image={require('../images/card-suncorp.jpg')}
-          />
-        <Card  
-          link="/mastercard"
-          title="Mastercard" 
-          text="UX & UI Design"
-          image={require('../images/card-mastercard.jpg')}
-          />
-        <Card  
-          link="/european-tour"
-          title="European Tour" 
-          text="UX Design"
-          image={require('../images/card-et.jpg')}
-          />
-        </div>
-    </div>
     <Footer />
   </div>
 </Layout>
