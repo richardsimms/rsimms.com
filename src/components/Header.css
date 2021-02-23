@@ -17,7 +17,7 @@
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(3, auto);
     align-items: center;
     justify-items: center;
     animation: HeroAnimation 3s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -74,7 +74,7 @@
     .HeaderGroup {
         grid-template-columns: repeat(3, auto);
     }
-    .Header a:nth-child(3){
+    /* .Header a:nth-child(3){
         display: none;
-    }
+    } */
 }
