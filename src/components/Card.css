@@ -8,6 +8,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    text-decoration-style: none;
 }
 
 .Card:hover {
@@ -33,6 +34,7 @@
     font-size: 30px;
     margin: 20px 0 0 20px;
     width: 190px;
+    text-decoration: none;
 }
 
 .Card p {
@@ -42,4 +44,5 @@
     font-size: 18px;
     align-self: end;
     margin: 0 0 20px 20px;
+    text-decoration: none;
 }
