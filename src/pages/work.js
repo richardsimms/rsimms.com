@@ -34,6 +34,7 @@ const Work = styled.div`
     }
     a {
         font-weight:400;
+        decolation: none;
     }
     a:hover {
         curser: pointer;

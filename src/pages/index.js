@@ -5,7 +5,7 @@ import Wave from '../components/Wave';
 import { graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
 import Form from "../components/form";
-import Testimonial from '../components/Testimonial';
+// import Testimonial from '../components/Testimonial';
 
 const indexPage = ({ data }) => <Layout>
   <div>
@@ -51,7 +51,7 @@ const indexPage = ({ data }) => <Layout>
       <h3>Designed a single destination and the place to get your home, car, money and life sorted.</h3>
      <p>I lead and facilitated the <Link to="/suncorp">strategic experience design</Link> of the Suncorp <a href="https://itunes.apple.com/au/app/suncorp-app/id1383025759?mt=8">iOS</a> / <a href="https://play.google.com/store/apps/details?id=au.com.suncorp.marketplace">Android</a> native banking and insurance marketplace. I advocated a user-centered approach in design perspective and practice across the product and stakeholders. Throughout discovery, we continually gathered feedback from customers. We tested everything from the value proposition, the navigation concepts to the desirability of individual features.</p>
     </div>
-    <div className="Testimonial">
+{/*     <div className="Testimonial">
     <h2>What I've made</h2>
       <div className="TestimonialGroup">
         <Testimonial  
@@ -75,7 +75,7 @@ const indexPage = ({ data }) => <Layout>
           />
 
         </div>
-    </div>  
+    </div>   */}
     <Footer />
   </div>
 </Layout>

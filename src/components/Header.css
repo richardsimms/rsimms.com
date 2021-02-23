@@ -4,6 +4,7 @@
     padding: 50px 0;
     z-index: 100;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+    background: white;
 
 }
 
@@ -17,9 +18,9 @@
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    align-items: center;
+    grid-template-columns: repeat(2, auto);
     justify-items: center;
+    align-items: center;
     animation: HeroAnimation 3s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 
 }
@@ -38,15 +39,27 @@
 }
 
 .HeaderGroup a path {
-    fill:#FCF7F5;
+    fill: #1F4753;
 }
 .HeaderScrolled .HeaderGroup a path {
     fill: #FCF7F5;
 }
-
 .Header a {
+    color: #1F4753;
+    text-decoration: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.Header a:hover {
+    text-decoration: underline;
+}
+.HeaderScrolled .HeaderGroup a {
     color: white;
-    font-weight: 700;
+    text-decoration: none;
+}
+.Header .HeaderGroup a:hover {
+    text-decoration: underline;
 }
 
 .Header button {
