@@ -5,6 +5,7 @@ import Wave from '../components/Wave';
 import { graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
 import Form from "../components/form";
+import Testimonial from '../components/Testimonial';
 
 const indexPage = ({ data }) => <Layout>
   <div>
@@ -46,20 +47,35 @@ const indexPage = ({ data }) => <Layout>
       <img className="Image" src={require('../images/img-square.jpg')} alt="Voluntee cutting fabric from a pattern" />
       <img className="Image" src={require('../images/img-nurse.jpg')} alt="Halthcare workers wearing scrubs" />
     </div>
-    {/* <div className="ContentGroup">      
-      <h3>Read <a href="http://vbd.substack.com">Find clarity in uncertainty</a>.</h3>
-      <ul>
-        <li>It's a value-based design approach to product design</li>
-        <li>How to impacting business objectives by creating valuable experience for people.</li>
-        <li>Discover what motivates your customers and to make informed design decisions</li>
-        <li>Improving conversion rates, average order value and customer lifetime value</li>
-      </ul>
-    </div> */}
     <div className="ContentGroup">      
       <h3>Designed a single destination and the place to get your home, car, money and life sorted.</h3>
      <p>I lead and facilitated the <Link to="/suncorp">strategic experience design</Link> of the Suncorp <a href="https://itunes.apple.com/au/app/suncorp-app/id1383025759?mt=8">iOS</a> / <a href="https://play.google.com/store/apps/details?id=au.com.suncorp.marketplace">Android</a> native banking and insurance marketplace. I advocated a user-centered approach in design perspective and practice across the product and stakeholders. Throughout discovery, we continually gathered feedback from customers. We tested everything from the value proposition, the navigation concepts to the desirability of individual features.</p>
     </div>
-      
+    <div className="Testimonial">
+    <h2>What I've made</h2>
+      <div className="TestimonialGroup">
+        <Testimonial  
+            
+            name="Samuel Ladlow"
+            title="Creative Director at Tangent" 
+            text="As friendly as he is intelligent, Richard always has a way of coming up with great solutions for any UX problem. An excellent collaborator, I would consider Richard a prized asset within any creative team."
+            image={require('../images/card-suncorp.jpg')}
+          />
+        <Testimonial  
+            name="Mastercard" 
+            title="Mastercard" 
+            text="He has the skills to work on a wide range of design technologies. It is rare to find a person who can combine creative flair, innovative design and technical understanding. "
+            image={require('../images/card-mastercard.jpg')}
+          />
+        <Testimonial
+            name="European Tour" 
+            title="European Tour" 
+            text="He is always cool under pressure and understands his customer."
+            image={require('../images/card-et.jpg')}
+          />
+
+        </div>
+    </div>  
     <Footer />
   </div>
 </Layout>
