@@ -57,7 +57,7 @@ module.exports = {
       },
     },    
     `gatsby-plugin-feed`,
-    {
+/*     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Gatsby Starter Blog`,
@@ -67,7 +67,7 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/favicon.png`,
-      },
+      }, */
     },
     `gatsby-transformer-sharp`, 
     `gatsby-plugin-sharp`,
