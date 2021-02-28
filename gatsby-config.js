@@ -1,9 +1,16 @@
 module.exports = {
   siteMetadata: {
     title: 'Richard Simms',
+    author: {
+      name: `Richard Simms`,
+      summary: `A user experience and interaction design expert in Melbourne. He is focused on optimisations and value-based design practices.`,
+    },
     description: 'Richard Simms is a user experience and interaction design expert in Melbourne. He is focused on optimisations and value-based design practices for eCommerce.',
     keywords: 'UX, Design, Product, human-centered, UI, Strategy, value-based, service, Lean UX, App, Website, sketch, figma, prototypes, startup, ',
-    siteUrl: `https://www.rsimms.com`,
+    siteUrl: `https://rsimms.com`,
+    social: {
+      twitter: `_rsimms`,
+    },
   },
   plugins: [
     {
@@ -11,6 +18,55 @@ module.exports = {
       options: {
         path: `${__dirname}/src/images/`,
         name: `images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/blog/`,
+        name: `blog`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/assets/`,
+        name: `assets`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 630,
+            },
+          },
+          {
+            resolve: `gatsby-remark-responsive-iframe`,
+            options: {
+              wrapperStyle: `margin-bottom: 1.0725rem`,
+            },
+          },
+          `gatsby-remark-prismjs`,
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`,
+        ],
+      },
+    },    
+    `gatsby-plugin-feed`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Gatsby Starter Blog`,
+        short_name: `GatsbyJS`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `content/assets/gatsby-icon.png`,
       },
     },
     `gatsby-transformer-sharp`, 
@@ -46,25 +102,18 @@ module.exports = {
         
       }
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/assets`,
-        name: `assets`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
-      },
-    },
+
     {
       resolve: `gatsby-plugin-hotjar`,
       options: {
         id: 295758,
         sv: 6
+      },
+    },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.rsimms.com`,
       },
     },
 /*     {

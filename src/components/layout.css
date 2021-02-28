@@ -147,12 +147,16 @@ body {
   text-align: left;
 }
 
+.ContentTop{
+  padding-top: 124px
+}
+
 @media (max-width: 640px) {
   .ContentGroup {
     padding: 24px 23px;
   }
   .ContentGroup.ContentTop {
-    padding: 24px 23px;
+    padding: 44px 23px;
   }
   .ContentGroup h2 {
     font-size:23px;

@@ -22,7 +22,7 @@ const indexPage = ({ data }) => <Layout>
 
     </div>
     
-    <div className="ContentGroup ContentTop">
+    <div className="ContentGroup">
       <h3>Work with us at <a href="https://www.open.edu.au/">Open University Australia</a></h3>
       <ul>
         <li>Open Universities Australia is a nonprofit marketplace for higher education across Australia that I lead the usability experience.</li>
