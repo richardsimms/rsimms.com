@@ -67,8 +67,8 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/favicon.png`,
-      }, */
-    },
+      }, 
+    },*/
     `gatsby-transformer-sharp`, 
     `gatsby-plugin-sharp`,
     'gatsby-plugin-react-helmet', 
