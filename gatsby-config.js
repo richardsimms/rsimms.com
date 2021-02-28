@@ -66,13 +66,13 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `src/favicon.png`,
       },
     },
     `gatsby-transformer-sharp`, 
     `gatsby-plugin-sharp`,
     'gatsby-plugin-react-helmet', 
-    //'gatsby-plugin-favicon',
+    
     `gatsby-plugin-sitemap`,
     `gatsby-transformer-remark`,
     {
