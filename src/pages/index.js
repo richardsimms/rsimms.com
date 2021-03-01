@@ -31,7 +31,8 @@ const indexPage = () => <Layout>
     </div>
     <div className="ImageSingle">
       {/* <img className="Image" src={require('../images/watering.jpg')} alt="Watering a plant and a phone on a table" />  */}
-      <img className="Image" src={require('../images/watering.jpg')} alt="Watering a plant and a phone on a table" />
+      <img className="Image" src={require('../images/img-nurse.jpg')} alt="Halthcare workers wearing scrubs" />
+
     </div>
     <div className="ContentBackground">
       <div className="ContentGroup">     
