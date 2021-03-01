@@ -30,7 +30,7 @@ const indexPage = () => <Layout>
       </ul>
     </div>
     <div className="ImageSingle">
-      <img className="Image" src={require('../images/watering.jpg')} alt="Watering a plant and a phone on a table" /> 
+      {/* <img className="Image" src={require('../images/watering.jpg')} alt="Watering a plant and a phone on a table" />  */}
     </div>
     <div className="ContentBackground">
       <div className="ContentGroup">     
