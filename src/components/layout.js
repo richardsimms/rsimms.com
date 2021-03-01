@@ -1,7 +1,7 @@
 import React from 'react';
+import "./layout.css";
 import Helmet from 'react-helmet';
 import Header from '../components/header';
-import "./layout.css";
 
 
 
