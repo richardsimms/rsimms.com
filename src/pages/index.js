@@ -2,8 +2,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import Footer from '../components/Footer';
 import Wave from '../components/Wave';
-import { graphql, Link } from 'gatsby';
-import Img from 'gatsby-image';
+import { Link } from 'gatsby';
 import Form from "../components/form";
 // import Testimonial from '../components/Testimonial';
 
@@ -31,7 +30,7 @@ const indexPage = ({ data }) => <Layout>
       </ul>
     </div>
     <div className="ImageSingle">
-    <Img className="Image" fluid={data.image1.childImageSharp.fluid} alt="Image of watering a plant and a phone on a table" />
+    <img className="Image" src={require('../images/watering.jpg')} alt="Watering a plant and a phone on a table" />
    
     </div>
     <div className="ContentBackground">
@@ -80,51 +79,3 @@ const indexPage = ({ data }) => <Layout>
   </div>
 </Layout>
 export default indexPage
-
-export const pageQuery = graphql`
-query {
-  image1: file(relativePath: { eq: "watering.jpg" }) {
-    childImageSharp {
-      fluid(maxWidth: 1000) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-  image2: file(relativePath: { eq: "img-square.jpg" }) {
-    childImageSharp {
-      fluid(maxWidth: 460) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-  image3: file(relativePath: { eq: "img-square-suncorp.jpg" }) {
-    childImageSharp {
-      fluid(maxWidth: 460) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-  image4: file(relativePath: { eq: "img-portrait.jpg" }) {
-    childImageSharp {
-      fluid(maxWidth: 1000) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-  image5: file(relativePath: { eq: "img-large-et.jpg" }) {
-    childImageSharp {
-      fluid(maxWidth: 1000) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-  image6: file(relativePath: { eq: "img-small-et.jpg" }) {
-    childImageSharp {
-      fluid(maxWidth: 1000) {
-        ...GatsbyImageSharpFluid
-      }
-    }
-  }
-  
-}
-`
