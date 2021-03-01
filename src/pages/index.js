@@ -83,7 +83,7 @@ export default indexPage
 
 export const pageQuery = graphql`
 query {
-  image1: file(relativePath: { eq: "img-square.jpg" }) {
+  image1: file(relativePath: { eq: "watering.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 1000) {
         ...GatsbyImageSharpFluid

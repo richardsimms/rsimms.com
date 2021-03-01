@@ -1,10 +1,10 @@
 import React from 'react';
+import Layout from '../components/layout';
 import Card from '../components/Card';
 import Summary from '../components/Summary';
 import Footer from '../components/Footer';
 import ReactPlayer from 'react-player';
-import Layout from '../components/layout';
-import "../components/layout.css";
+//import "../components/layout.css";
 
 const espnPage = () => <Layout>
     <div>
