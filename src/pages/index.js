@@ -18,9 +18,7 @@ const indexPage = () => <Layout>
       <h1>Design for clarity when everything is uncertain </h1>    
       <h2>Make profitable design decisions even in these crazy times. </h2> 
       <Form />      
-
     </div>
-    
     <div className="ContentGroup">
       <h3>Work with us at <a href="https://www.open.edu.au/">Open University Australia</a></h3>
       <ul>
@@ -31,7 +29,7 @@ const indexPage = () => <Layout>
     </div>
     <div className="ImageSingle">
       {/* <img className="Image" src={require('../images/watering.jpg')} alt="Watering a plant and a phone on a table" />  */}
-      <img className="Image" src={require('../images/img-nurse.jpg')} alt="Halthcare workers wearing scrubs" />
+      <img className="Image" src={require('../images/watering.webp')} alt="Halthcare workers wearing scrubs" />
 
     </div>
     <div className="ContentBackground">
