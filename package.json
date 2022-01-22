@@ -36,7 +36,7 @@
     "gatsby-transformer-sharp": "^2.5.20",
     "joi": "^17.3.0",
     "js-yaml": "^3.14.0",
-    "node-fetch": "^3.0.0-beta.9",
+    "node-fetch": "^3.1.1",
     "node-sass": "^4.14.1",
     "npm": "^7.6.0",
     "npmvet": "^0.1.5",
