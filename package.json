@@ -37,7 +37,7 @@
     "joi": "^17.3.0",
     "js-yaml": "^3.14.0",
     "node-fetch": "^3.0.0-beta.9",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "npm": "^7.6.0",
     "npmvet": "^0.1.5",
     "prismjs": "^1.23.0",
